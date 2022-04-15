@@ -62,7 +62,7 @@
   - [Arknights Assets Decryption](https://github.com/n0k0m3/Arknights-Lua-Decrypter)
   - [D4DJ Assets Decryption](https://github.com/n0k0m3/D4DJ)
 
-## Other Personal Projects
+## [Other Personal Projects](https://n0k0m3.github.io/Personal-Setup/)
 
 These repos contains all of my personal codes and guides for personal setups. Most scripts work with all common consumer-based distros (Debian/Ubuntu, Arch, maybe RHEL-based, Fedora for some)
 
