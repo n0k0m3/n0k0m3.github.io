@@ -1,0 +1,3 @@
+[submodule "Personal-Setup"]
+	path = Personal-Setup
+	url = git@github.com:n0k0m3/Personal-Setup.git
