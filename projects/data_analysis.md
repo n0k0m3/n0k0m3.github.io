@@ -2,12 +2,13 @@
 layout: default
 title: Data Analysis
 parent: Projects
+has_children: true
 nav_order: 2
 ---
 
 ## Data Analysis Projects
 
-### [Analysis of ProtonDB Linux Distribution](https://n0k0m3.github.io/Personal-Setup/ProtonDB_Analysis/analysis.html)
+### [Analysis of ProtonDB Linux Distribution](../Personal-Setup/ProtonDB_Analysis/analysis.md)
 
 - Analyze trends of distributions market share in Gaming segment, based on ProtonDB user reports.
 - Visuals to demonstrate the impact of Steam Deck release on Linux distribution market share.
