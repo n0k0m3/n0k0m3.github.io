@@ -5,7 +5,7 @@ nav_order: 2
 permalink: /resume/
 ---
 
-
 ## Resume
 
-Download Latest Resume: [Resume.pdf](https://raw.githubusercontent.com/n0k0m3/resume/master/resume.pdf)
+My Latest Resume: [Download](/resume/resume.pdf)
+<embed src="/resume/resume.pdf" type="application/pdf" width="800px" height="800px"/>
