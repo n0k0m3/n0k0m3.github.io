@@ -2,7 +2,7 @@
 layout: default
 title: Deep Learning
 parent: Projects
-nav_order: 1
+nav_order: 2
 ---
 
 ## Deep Learning Projects
