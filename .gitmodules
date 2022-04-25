@@ -1,3 +1,6 @@
 [submodule "Personal-Setup"]
 	path = Personal-Setup
 	url = git@github.com:n0k0m3/Personal-Setup.git
+[submodule "resume"]
+	path = resume
+	url = git@github.com:n0k0m3/resume.git
