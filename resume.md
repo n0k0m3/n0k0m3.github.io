@@ -7,5 +7,7 @@ permalink: /resume/
 
 ## Resume
 
-My Latest Resume: [Download](/resume/resume.pdf)
-<embed src="/resume/resume.pdf" type="application/pdf" width="800px" height="800px"/>
+Here you can view and download my latest Resume
+
+[Download Resume](/resume/resume.pdf){: .btn }
+<embed src="/resume/resume.pdf" type="application/pdf" width="100%" height="800px"/>
