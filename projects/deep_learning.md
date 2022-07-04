@@ -7,6 +7,10 @@ nav_order: 2
 
 ## Deep Learning Projects
 
+### [Deep Transformer Soft Actor-Critic Network for Reinforcement Learning](https://github.com/sesem738/Frankenstein)
+- Utilize Transformer as memory module for both Actor and Policy networks
+- Hyperparameter tuning for SAC performance
+
 ### [Sentiment Analysis on MyAnimeList User Ratings](https://github.com/n0k0m3/rnn-mal-sentiment)
 
 - MyAnimeList is a popular anime rating website.
