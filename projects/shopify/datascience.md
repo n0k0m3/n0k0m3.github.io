@@ -1,8 +1,8 @@
 ---
 layout: default
 title: Shopify Fall 2022 Data Science Intern Challenge
-nav_exclude: true
-search_exclude: true
+parent: Data Analysis
+grand_parent: Projects
 ---
 # Shopify Fall 2022 Data Science Intern Challenge
 
