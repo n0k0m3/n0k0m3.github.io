@@ -21,7 +21,7 @@ baseurl: "" # the subpath of your site, e.g. /blog
 
 permalink: pretty
 exclude: ["node_modules/", "*.gemspec", "*.gem", "Gemfile", "Gemfile.lock", "package.json", "package-lock.json",  "script/", "LICENSE.txt", "lib/", "bin/", "README.md", "Rakefile"
-, "docs/tests/", vendor
+, "docs/tests/"
 ]
 
 # Regression tests
@@ -132,3 +132,4 @@ compress_html:
 exclude:
 - Personal-Setup/ProtonDB_Analysis/protondb-data
 - Personal-Setup/ProtonDB_Analysis/.venv
+- vendor
