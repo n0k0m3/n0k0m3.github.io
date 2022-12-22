@@ -111,7 +111,8 @@ ga_tracking_anonymize_ip: true # Use GDPR compliant Google Analytics settings (t
 plugins:
   - jekyll-seo-tag
 
-remote_theme: just-the-docs/just-the-docs@v0.4.0
+#remote_theme: just-the-docs
+theme: just-the-docs
 
 kramdown:
   syntax_highlighter_opts:
