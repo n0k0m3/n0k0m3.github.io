@@ -1,8 +1,16 @@
 ---
-layout: default
+# layout: default
+# title: "Post: Standard"
+excerpt_separator: "<!--more-->"
+categories:
+  - Blog
+tags:
+  - Post Formats
+  - readability
+  - standard
 title: Jupyter + Plotly + Jekyll
-parent: Miscellaneous
-nav_order: 1
+# parent: Miscellaneous
+# nav_order: 1
 ---
 
 # Using Jupyter Notebooks + Plotly graph in Jekyll Markdown
@@ -39,8 +47,7 @@ Download this script to your notebook directory, edit `FRONT_MATTER_STR` and `IP
 [Download convert.py](convert.py){: .btn }
 
 </div>
-{% capture convertpy %}
-{% highlight python linenos %}
+```
 import subprocess
 import shutil
 import os
@@ -111,10 +118,7 @@ def conv_nb_jekyll(filename, front_matter):
 if __name__ == "__main__":
     # call function to convert ipynb to md
     md_file = conv_nb_jekyll(filename=IPYNB_FILE, front_matter=FRONT_MATTER_STR)
-{% endhighlight %}
-{% endcapture %}
-{% include fix_linenos.html code=convertpy %}
-
+```
 
 Run the script and it will generate a Jekyll Markdown file in the same directory as your notebook, and move the `iframe_figures` directory to a Jekyll-compatible path.
 
