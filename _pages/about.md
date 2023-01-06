@@ -1,10 +1,7 @@
 ---
-layout: default
-title: Home
-nav_order: 1
-permalink: /
+permalink: /about/
+title: "About"
 ---
-# n0k0m3's Portfolio
 
 Welcome to my personal dev blog.
 

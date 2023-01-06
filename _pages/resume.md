@@ -1,7 +1,6 @@
 ---
-layout: page
+layout: single
 title: Resume
-nav_order: 2
 permalink: /resume/
 ---
 
