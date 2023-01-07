@@ -1,19 +1,13 @@
 ---
-# layout: default
-# title: "Post: Standard"
 excerpt_separator: "<!--more-->"
 categories:
-  - Blog
+  - Miscellaneous
 tags:
   - Post Formats
   - readability
   - standard
-title: Jupyter + Plotly + Jekyll
-# parent: Miscellaneous
-# nav_order: 1
+title: Using Jupyter Notebooks + Plotly graph in Jekyll Markdown
 ---
-
-# Using Jupyter Notebooks + Plotly graph in Jekyll Markdown
 
 Jupyter Notebooks are great for creating interactive plots, especially when used with Plotly. However, to convert them to Jekyll Markdown and in compliance with used Jekyll theme, more steps need to be taken.
 
@@ -33,7 +27,7 @@ The only stable way to embed a Plotly graph in Jekyll Markdown is to use Plotly 
 
 ```python
 import plotly.io as pio
-pio.renderers.default = "iframe"
+pio.renderers.default = "iframe_connected"
 ```
 
 Run the cell and every cells that generate graphs. This will generate a directory named `iframe_figures` in the same directory as your notebook.
@@ -47,7 +41,8 @@ Download this script to your notebook directory, edit `FRONT_MATTER_STR` and `IP
 [Download convert.py](convert.py){: .btn }
 
 </div>
-```
+
+```python
 import subprocess
 import shutil
 import os
