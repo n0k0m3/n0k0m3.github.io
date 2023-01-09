@@ -299,3 +299,14 @@ defaults:
     values:
       layout: single
       author_profile: true
+  # _posts
+  - scope:
+      path: "_posts/Personal-Setup/"
+      type: posts
+    values:
+      categories:
+        - Personal Setup
+        - Linux
+
+relative_links:
+  collections: true
