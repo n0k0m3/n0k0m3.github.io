@@ -43,7 +43,7 @@ jobs:
         id: pages
         uses: actions/configure-pages@v2
       - name: Indexing Search with Algolia
-        run: bundle exec jekyll algolia
+        run: ALGOLIA_API_KEY=${{ secrets.ALGOLIA_API_KEY }} bundle exec jekyll algolia
         env:
           JEKYLL_ENV: production
       - name: Build with Jekyll
