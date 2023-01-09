@@ -4,8 +4,9 @@ categories:
   - Miscellaneous
 tags:
   - Post Formats
-  - readability
-  - standard
+  - Jupyter
+  - Plotly
+  - Jekyll
 title: Using Jupyter Notebooks + Plotly graph in Jekyll Markdown
 ---
 
@@ -36,11 +37,7 @@ Run the cell and every cells that generate graphs. This will generate a director
 
 Download this script to your notebook directory, edit `FRONT_MATTER_STR` and `IPYNB_FILENAME` variables to match your need.
 
-<div class="code-example" markdown="1">
-
-[Download convert.py](convert.py){: .btn }
-
-</div>
+[Download convert.py](/misc/convert.py){: .btn .btn--info}
 
 ```python
 import subprocess
