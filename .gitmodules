@@ -4,3 +4,6 @@
 [submodule "resume"]
 	path = resume
 	url = git@github.com:n0k0m3/resume.git
+[submodule "_posts/Personal-Setup"]
+	path = _posts/Personal-Setup
+	url = https://github.com/n0k0m3/Personal-Setup/
