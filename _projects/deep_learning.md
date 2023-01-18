@@ -1,11 +1,7 @@
 ---
-layout: default
-title: Deep Learning
-parent: Projects
-nav_order: 2
+title: Deep Learning Projects
+excerpt: "A sandbox full of sandcastles, broken dreams and failed experiments (and some successes too)"
 ---
-
-## Deep Learning Projects
 
 ### [Deep Transformer Soft Actor-Critic Network for Reinforcement Learning](https://github.com/sesem738/Frankenstein)
 - Utilize Transformer as memory module for both Actor and Policy networks

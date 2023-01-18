@@ -1,10 +1,7 @@
 ---
-layout: default
 title: Shopify Fall 2022 Data Science Intern Challenge
-parent: Data Analysis
-grand_parent: Projects
+excerpt: "Data Science Challenge Solution for Shopify Fall 2022 Internship Application" 
 ---
-# Shopify Fall 2022 Data Science Intern Challenge
 
 [Download Notebook](../datascience.ipynb){: .btn }
 

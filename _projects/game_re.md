@@ -1,11 +1,7 @@
 ---
-layout: default
-title: Games Reverse Engineering and Data Mining
-parent: Projects
-nav_order: 4
+title: Games Reverse Engineering and Data Mining Projects
+excerpt: "I do enjoy playing games, but more than that, I enjoy breaking down the code, reverse engineering and data mining games."
 ---
-
-## Games Reverse Engineering and Data Mining Projects
 
 ### Date A Live: Spirit Pledge Game Analysis:
 

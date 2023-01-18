@@ -1,12 +1,7 @@
 ---
-layout: default
-title: Data Analysis
-parent: Projects
-has_children: true
-nav_order: 2
+title: Data Analysis Projects
+excerpt: "Collection of my projects dealing with data analysis and statistical modeling"
 ---
-
-## Data Analysis Projects
 
 ### [Analysis of ProtonDB Linux Distribution](../Personal-Setup/ProtonDB_Analysis/analysis.md)
 
