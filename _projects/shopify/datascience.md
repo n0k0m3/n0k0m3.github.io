@@ -3,7 +3,7 @@ title: Shopify Fall 2022 Data Science Intern Challenge
 excerpt: "Data Science Challenge Solution for Shopify Fall 2022 Internship Application" 
 ---
 
-[Download Notebook](../datascience.ipynb){: .btn }
+[Download Notebook](https://github.com/n0k0m3/n0k0m3.github.io/blob/main/_projects/shopify/datascience.ipynb){: .btn .btn--info }
 
 **Note:** All graphs and plots are interactive. Feel free to zoom, pan, and edit the graphs for more granular details.
 

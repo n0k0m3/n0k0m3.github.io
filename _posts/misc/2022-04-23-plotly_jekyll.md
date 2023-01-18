@@ -37,7 +37,8 @@ Run the cell and every cells that generate graphs. This will generate a director
 
 Download this script to your notebook directory, edit `FRONT_MATTER_STR` and `IPYNB_FILENAME` variables to match your need.
 
-[Download convert.py](/misc/convert.py){: .btn .btn--info}
+<!-- <embed src="/_posts/misc/convert.py" type="application/pdf" width="100%" height="100%" hidden="true"/> -->
+[Download convert.py](/includes/convert.py){: .btn .btn--info}
 
 ```python
 import subprocess
