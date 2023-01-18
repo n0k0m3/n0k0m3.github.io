@@ -7,3 +7,6 @@
 [submodule "_posts/Personal-Setup"]
 	path = _posts/Personal-Setup
 	url = https://github.com/n0k0m3/Personal-Setup/
+[submodule "_posts/small-projects"]
+	path = _posts/small-projects
+	url = https://github.com/n0k0m3/small-projects
