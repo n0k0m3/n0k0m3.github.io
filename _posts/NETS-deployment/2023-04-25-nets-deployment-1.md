@@ -8,7 +8,6 @@ tags:
   - JupyterHub
   - Keycloak
 title: JupyterHub on Baremetal Kubernetes - Part 1 - Setting up cluster
-toc: true
 ---
 # Introduction
 
