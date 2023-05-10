@@ -20,7 +20,7 @@ title: "n0k0m3 Dev Blog"
 title_separator: "-"
 subtitle: # site tagline that appears below site title in masthead
 name: "Minh Nguyen"
-description: "Welcome to my personal website. Here you can find my resume, projects, and Linux guides"
+description: "Welcome to n0k0m3 personal website. Here you can find my resume, projects, and Linux guides"
 url: https://n0k0m3.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl: "" # the subpath of your site, e.g. "/blog"
 repository: "n0k0m3/n0k0m3.github.io" # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
@@ -104,8 +104,8 @@ analytics:
 # Site Author
 author:
   name: "Minh Nguyen"
-  avatar: # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio: "I just wanna learn a lot of things"
+  avatar: /assets/images/bio-photo.png # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  bio: "Driven by insatiable curiosity, I am on a continuous quest to learn and grow, embracing the vast expanse of knowledge that life has to offer."
   location: "Florida, USA"
   email: vmnguyen251@gmail.com
   links:
@@ -268,8 +268,6 @@ tag_archive:
 # - https://jch.penibelst.de/
 compress_html:
   clippings: all
-  ignore:
-    envs: development
 
 # Defaults
 defaults:
@@ -282,6 +280,7 @@ defaults:
       toc: true
       toc_sticky: true
       author_profile: true
+      show_date: true
       read_time: true
       comments: true
       share: true
@@ -309,8 +308,3 @@ collections:
 
 relative_links:
   collections: true
-
-compress_html:
-  clippings: all
-  # ignore:
-  #   envs: development  # disable compression in dev environment
