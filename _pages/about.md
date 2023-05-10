@@ -3,10 +3,12 @@ permalink: /about/
 title: "About"
 ---
 
-Welcome to my personal dev blog.
+Hello, and welcome to my digital corner of curiosity and creation!
 
-I'm currently a Ph.D. student at the Florida Tech studying Operations Research, researching Learnable Representations of Electronic Health Records (EHRs) and the applications in Synthetic Data Generation.
+I'm a Ph.D. student at Florida Tech, delving deep into the realms of Operations Research. My journey of learning is currently focused on the intriguing world of Electronic Health Records (EHRs) and the exciting potential they offer in Synthetic Data Generation.
 
-On the sidebar, you can find a list of [my current and past projects](/projects). Also, I highly recommend checking out my [Personal Projects](/Personal-Setup) that contains a lot of my personal setups and experiments with Linux, especially Arch Linux.
+My [portfolio](/projects) is a showcase of my endeavors, a collection of past and present projects that I'm incredibly proud of. For tech enthusiasts, my [blog](/blog) is a treasure trove of insights and explorations, where I share my experiences with Linux, Docker, VM, and Kubernetes.
 
-Also, if you are interested in hiring, you can find my [resume](/resume) on the sidebar.
+Whether you're here out of curiosity, interest, or are considering bringing me on board, I invite you to view my [resume](/resume).
+
+Thank you for visiting, and enjoy your journey through my world of tech and innovation!

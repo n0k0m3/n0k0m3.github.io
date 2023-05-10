@@ -4,8 +4,6 @@ title: Resume
 permalink: /resume/
 ---
 
-## Resume
-
 Here you can view and download my latest Resume
 
 [Download Resume](/resume/resume.pdf){: .btn .btn--info}
