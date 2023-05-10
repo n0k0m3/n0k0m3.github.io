@@ -4,3 +4,4 @@ _site
 .vscode
 .venv
 Gemfile.lock
+.DS_Store
