@@ -2,11 +2,20 @@
 	path = _posts/Personal-Setup
 	url = git@github.com:n0k0m3/Personal-Setup.git
 [submodule "resume"]
-	path = resume
+	path = content/resume
 	url = git@github.com:n0k0m3/resume.git
 [submodule "_posts/Personal-Setup"]
-	path = _posts/Personal-Setup
+	path = content/Personal-Setup
 	url = https://github.com/n0k0m3/Personal-Setup/
 [submodule "_posts/small-projects"]
-	path = _posts/small-projects
+	path = content/small-projects
 	url = https://github.com/n0k0m3/small-projects
+[submodule "themes/ananke"]
+	path = themes/ananke
+	url = https://github.com/theNewDynamic/gohugo-theme-ananke.git
+[submodule "themes/PaperMod"]
+	path = themes/PaperMod
+	url = https://github.com/adityatelange/hugo-PaperMod.git
+[submodule "themes/hugo-embed-pdf-shortcode"]
+	path = themes/hugo-embed-pdf-shortcode
+	url = https://github.com/anvithks/hugo-embed-pdf-shortcode.git
