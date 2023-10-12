@@ -16,9 +16,9 @@ The project involves four main steps:
 
 **Proposal/White Paper**
 
-<embed src="/_pages/ehr.pdf" type="application/pdf" width="100%" height="100%"/>
+[Download PDF](ehr.pdf)
 
-[Download PDF](/_pages/ehr.pdf){: .btn .btn--info}
+{{< embed-pdf url="ehr.pdf" >}}
 
 **Keywords:** electronic health records, synthetic data, generative adversarial networks, differential privacy, temporal features.
 
@@ -41,10 +41,10 @@ Mutation rate is a key parameter in evolutionary biology and genetics, but it is
 
 In this paper, we proposed a stochastic estimator that cover these issues of Luria–Delbrück's method, while also rigorously proved the convergence of the estimator in both probability and in L2-space, and validate the model empirically with experiments. Also, we expanded our estimator for the assumption that a microorganism can mutate or turn to 2 variants (which is a precursor to future research of an estimator for any finite n-variants), and showed that the estimator is also converge in probability, L2, and unbiased.
 
-**Paper**
+**Publication**
 
 [Determination of Mutation Rates with Two Symmetric and Asymmetric Mutation Types](https://www.mdpi.com/2073-8994/14/8/1701)
 
-[Download PDF](https://mdpi-res.com/d_attachment/symmetry/symmetry-14-01701/article_deploy/symmetry-14-01701.pdf){: .btn .btn--info}
+{{< embed-pdf url="https://mdpi-res.com/d_attachment/symmetry/symmetry-14-01701/article_deploy/symmetry-14-01701.pdf" >}}}
 
 **Keywords:** mutation rate, Luria–Delbrück method, stochastic estimator, convergence analysis, empirical validation.

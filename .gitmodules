@@ -1,13 +1,10 @@
-[submodule "Personal-Setup"]
-	path = _posts/Personal-Setup
-	url = git@github.com:n0k0m3/Personal-Setup.git
 [submodule "resume"]
 	path = content/resume
 	url = git@github.com:n0k0m3/resume.git
-[submodule "_posts/Personal-Setup"]
+[submodule "content/Personal-Setup"]
 	path = content/Personal-Setup
 	url = https://github.com/n0k0m3/Personal-Setup/
-[submodule "_posts/small-projects"]
+[submodule "content/small-projects"]
 	path = content/small-projects
 	url = https://github.com/n0k0m3/small-projects
 [submodule "themes/ananke"]
