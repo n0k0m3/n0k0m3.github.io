@@ -87,14 +87,6 @@ params:
     Title: "Hi there \U0001F44B"
     Content: Welcome to my blog
 
-  analytics:
-    google:
-      SiteVerificationTag: "G-61QY6DPN4Y"
-    bing:
-      SiteVerificationTag: "642F9756927D2879DC92D9B9EA33A800"
-    yandex:
-      SiteVerificationTag: "95245003"
-
   cover:
     hidden: false # hide everywhere but not in structured data
     hiddenInList: false # hide on list pages and home
