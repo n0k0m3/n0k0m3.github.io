@@ -5,3 +5,5 @@ _site
 .venv
 Gemfile.lock
 .DS_Store
+/.quarto/
+oldsite/

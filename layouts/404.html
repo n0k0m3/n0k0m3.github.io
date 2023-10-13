@@ -1,0 +1,24 @@
+{{- define "main" }}
+<div class="not-found" style="bottom:20%">404</div>
+<div
+  style="
+    position: absolute;
+    font-size: 16px;
+    font-weight: normal;
+    max-width: 80%;
+    margin: 20px auto 0;
+    bottom: 35%; /* adjust this value to position it as desired */
+    left: 0;
+    right: 0;
+    text-align: center;
+  "
+>
+  <h1>Page not found 😞</h1>
+  <p>
+    Try using the <a href="/search" style="color: aqua">search</a> tool to find
+    what you're looking for or go back to
+    <a href="/" style="color: aqua">home page</a>.
+  </p>
+</div>
+
+{{- end }}{{/* end main */ -}}
