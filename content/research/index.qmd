@@ -22,7 +22,7 @@ The project involves four main steps:
 
 [Download PDF](ehr.pdf)
 
-{{< embed-pdf url="ehr.pdf" >}}
+<!-- {{< embed-pdf url="ehr.pdf" >}} -->
 
 **Keywords:** electronic health records, synthetic data, generative adversarial networks, differential privacy, temporal features.
 
@@ -36,7 +36,7 @@ We adapt two variants of NeRF, Instant NeRF and D-NeRF, to the RSO domain and ev
 
 [3D Reconstruction of Non-cooperative Resident Space Objects using Instant NGP-accelerated NeRF and D-NeRF](https://arxiv.org/abs/2301.09060)
 
-{{< embed-pdf url="https://arxiv.org/pdf/2301.09060.pdf" >}}
+<!-- {{< embed-pdf url="https://arxiv.org/pdf/2301.09060.pdf" >}} -->
 
 **Keywords:** resident space objects, neural radiance fields, 3D reconstruction, functionality identification, on-orbit servicing.
 
@@ -50,14 +50,11 @@ In this paper, we proposed a stochastic estimator that cover these issues of Lur
 
 [Determination of Mutation Rates with Two Symmetric and Asymmetric Mutation Types](https://www.mdpi.com/2073-8994/14/8/1701)
 
-{{< embed-pdf url="https://mdpi-res.com/d_attachment/symmetry/symmetry-14-01701/article_deploy/symmetry-14-01701.pdf" >}}
+<!-- {{< embed-pdf url="https://mdpi-res.com/d_attachment/symmetry/symmetry-14-01701/article_deploy/symmetry-14-01701.pdf" >}} -->
 
 **Keywords:** mutation rate, Luria--Delbrück method, stochastic estimator, convergence analysis, empirical validation.
 
 ### References
 
-Caruso, Basilio, Trupti Mahendrakar, Van Minh Nguyen, Ryan T. White, and Todd Steffen. 2023. "3D Reconstruction of Non-Cooperative Resident Space Objects Using Instant NGP-Accelerated NeRF and d-NeRF." <https://arxiv.org/abs/2301.09060>.
-
-Dshalalow, Jewgeni H., Van Minh Nguyen, Richard R. Sinden, and Ryan T. White. 2022. "Determination of Mutation Rates with Two Symmetric and Asymmetric Mutation Types." *Symmetry* 14 (8). <https://doi.org/10.3390/sym14081701>.
-
-Tikayat Ray, Archana, Anirudh Prabhakara Bhat, Ryan T. White, Van Minh Nguyen, Olivia J. Pinon Fischer, and Dimitri N. Mavris. 2023. "Examining the Potential of Generative Language Models for Aviation Safety Analysis: Case Study and Insights Using the Aviation Safety Reporting System (ASRS)." *Aerospace* 10 (9). <https://doi.org/10.3390/aerospace10090770>.
+::: {#refs}
+:::
