@@ -9,4 +9,3 @@ These repos contains all of my personal codes and guides for personal setups. Mo
 - [Jpopsuki Torrent Scrapper](https://github.com/n0k0m3/jpopsuki-scraping): Scrapes small torrents for hoarding seed points on private music tracker Jpopsuki. Not intended for piracy
 - [pwned password checker](https://github.com/n0k0m3/bitwarden-haveibeenpwned): Check export BitWarden passwords against haveibeenpwned.com API.
 - [ReVanced Build Action](https://github.com/n0k0m3/revanced-build-template): For education purpose only, support building ReVanced - a modded YouTube app for Android with a single click using Github Actions.
-- [Personal Setup](https://github.com/n0k0m3/Personal-Setup): A collection of scripts and guides for Arch Setup
