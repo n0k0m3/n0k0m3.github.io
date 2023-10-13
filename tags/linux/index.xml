@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Linux on n0k0m3 Dev Blog</title>
+    <link>https://n0k0m3.github.io/tags/linux/</link>
+    <description>Recent content in Linux on n0k0m3 Dev Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Tue, 03 May 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://n0k0m3.github.io/tags/linux/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Setting up Arch - Part 5 - Bugs Fixes</title>
+      <link>https://n0k0m3.github.io/posts/setting_up_arch/bug_fixes/</link>
+      <pubDate>Tue, 03 May 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://n0k0m3.github.io/posts/setting_up_arch/bug_fixes/</guid>
+      <description>OBS Studio flickering with Intel Graphics With some Intel graphics cards on XOrg (in my case, Tiger Lake Xe), OBS Studio will flicker with screen capture.
+sudo nano /etc/X11/xorg.conf.d/20-intel.conf Section &amp;#34;Device&amp;#34; Identifier &amp;#34;Intel Graphics&amp;#34; Driver &amp;#34;modesetting&amp;#34; EndSection Reboot or restart XOrg server to apply the fix.
+Delete Goodix Fingerprint Sensor saved fingerprint data If you installed Windows and enrolled fingerprints with Goodix Fingerprint Sensor, the saved fingerprint data will prevent new enrollments in Linux.</description>
+    </item>
+    
+    <item>
+      <title>Guide for hacking PSVita on Linux</title>
+      <link>https://n0k0m3.github.io/posts/ps_vita_hacking/</link>
+      <pubDate>Mon, 14 Mar 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://n0k0m3.github.io/posts/ps_vita_hacking/</guid>
+      <description>Follow instructions from https://guide.13375384.xyz/start or https://vita.hacks.guide/.
+Documents for compiling from sources for tools. Guide to mount TexFAT Note: Put device in airplane mode during the Content Manager connection process will make the steps much easier to do.
+DON&amp;rsquo;T MANUALLY SETTING YAMT, JUST USE YAMT SETUP USING VITADEPLOY (guide)
+FinalHE Check prerequisites (https://github.com/soarqin/finalhe)
+git clone https://github.com/soarqin/finalhe cd finalhe qmake &amp;amp;&amp;amp; make Build artifacts in src/FinalHE. Copy VitaDeploy zip in the same folder as FinalHE binary</description>
+    </item>
+    
+    <item>
+      <title>Setting up Arch - Part 4 - Tips and Tricks</title>
+      <link>https://n0k0m3.github.io/posts/setting_up_arch/tips_and_tricks/</link>
+      <pubDate>Thu, 18 Nov 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://n0k0m3.github.io/posts/setting_up_arch/tips_and_tricks/</guid>
+      <description>fstab mount with user permssion Use KDE/GNOME partition manager to manage mount point and use mount options: uid=1000,gid=1001,umask=022
+Or append to /etc/fstab:
+UUID=&amp;lt;disk_UUID&amp;gt; &amp;lt;mount_point&amp;gt; &amp;lt;format&amp;gt; uid=1000,gid=1001,umask=022,noatime 0 1 fstab mount NTFS with kernel NTFS3 driver from kernel 5.15 Use KDE/GNOME partition manager to manage mount point, this will use the default mount.ntfs -&amp;gt; ntfs-3g driver. We need to change the mount driver to mount.ntfs3 in /etc/fstab:
+UUID=&amp;lt;disk_UUID&amp;gt; &amp;lt;mount_point&amp;gt; ntfs3 discard,noatime 0 0 </description>
+    </item>
+    
+    <item>
+      <title>Setting up Arch - Part 3 - Post-Installation Setup</title>
+      <link>https://n0k0m3.github.io/posts/setting_up_arch/post_install/</link>
+      <pubDate>Wed, 17 Nov 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://n0k0m3.github.io/posts/setting_up_arch/post_install/</guid>
+      <description>Install zsh4humans I don&amp;rsquo;t need anything more fancy than romkatv&amp;rsquo;s zsh4humans
+sh -c &amp;#34;$(curl -fsSL https://raw.githubusercontent.com/n0k0m3/Personal-Setup/main/Setting_up_Arch/setup.sh)&amp;#34; Install Nextcloud sudo pacman -S nextcloud-client Sync .dotfiles with Nextcloud + flameshot shortcut
+Setting up pacman and makepkg config sudo nano /etc/pacman.conf Set ParallelDownloads = 10:
+sudo nano /etc/makepkg.conf Set compile flags CFLAGS=&amp;quot;-march=native -mtune=native ...&amp;quot; and MAKEFLAGS=&amp;quot;-j12&amp;quot; for 12 being total number of available cores/threads:
+Comparing current installation with installed packages of previous dist python3 read_install.</description>
+    </item>
+    
+    <item>
+      <title>Setting up Arch - Part 2 - `systemd` hooks with FIDO2 unlock</title>
+      <link>https://n0k0m3.github.io/posts/setting_up_arch/systemd_setup/systemd_setup/</link>
+      <pubDate>Tue, 16 Nov 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://n0k0m3.github.io/posts/setting_up_arch/systemd_setup/systemd_setup/</guid>
+      <description>By default Arch-based distros uses busybox init, which doesn’t support some features comfort from systemd. This guide will help you to setup systemd hooks, switch encryption to LUKS2 for systemd-cryptenroll, use U2F/FIDO2 key to unlock at boot, and Plymouth for boot splash screen.
+systemd hooks and Plymouth boot splash screen Follwing script will change busybox init to systemd hooks and setup plymouth with colorful_loop theme.
+Requirements: yay (default on EndeavourOS)</description>
+    </item>
+    
+    <item>
+      <title>Setting up Arch - Part 1 - Swap on BTRFS</title>
+      <link>https://n0k0m3.github.io/posts/setting_up_arch/setting_up_arch/</link>
+      <pubDate>Mon, 15 Nov 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://n0k0m3.github.io/posts/setting_up_arch/setting_up_arch/</guid>
+      <description>This is setup on EndeavourOS/Manjaro, on barebone Arch should be a little bit different (install yay before all of these steps)
+Arch setup Setting up Manjaro/EndeavourOS with Calamares installer using this partition Setup with SWAP file (turn on hibernation option):
+Partition Mount Point Filesystem Size Encryption Status EFI system partition /boot/efi FAT32 300-550 MB Unencrypted /boot partition /boot/efi ext4 200-500 MB Unencrypted root partition / btrfs/LUKS Rest of space Encrypted Note: mount EFI with boot flag and / with root flag.</description>
+    </item>
+    
+    <item>
+      <title>Tensorflow with GPU support in Docker</title>
+      <link>https://n0k0m3.github.io/posts/tensorflow_docker/</link>
+      <pubDate>Sun, 02 May 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://n0k0m3.github.io/posts/tensorflow_docker/</guid>
+      <description>Following guide was tested on EndeavourOS and Manjaro (Arch-based) Linux distro.
+Why? Installing dependencies and setting up notebooks is usually a PITA: installing CUDA with CuDNN and TensorRT doesn&amp;rsquo;t have a common and easy to follow guide, along with recent (not recent) release of python 3.9, most ML/DL packages are not updated to this wheel. Also setting up venv is hard to maintain and migrate as you have to backup the whole environment to other machine.</description>
+    </item>
+    
+    <item>
+      <title>VFIO Single GPU Passthrough Guide on Linux</title>
+      <link>https://n0k0m3.github.io/posts/single_gpu_passthrough_guide/</link>
+      <pubDate>Sat, 01 May 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://n0k0m3.github.io/posts/single_gpu_passthrough_guide/</guid>
+      <description>Why single GPU passthrough? Because I&amp;rsquo;m poor, using Ryzen non-APU CPU, and I don&amp;rsquo;t want to buy a second GPU just for passthrough. I&amp;rsquo;m using a single GPU passthrough for gaming on Windows and using Linux as my daily driver.
+In this guide, we will be going over how to set up a single GPU passthrough on Linux. This guide is meant to be a reference for myself and others who want to learn how to set up a single GPU passthrough on Linux.</description>
+    </item>
+    
+  </channel>
+</rss>

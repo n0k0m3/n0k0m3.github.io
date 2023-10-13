@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Kubernetes on n0k0m3 Dev Blog</title>
+    <link>https://n0k0m3.github.io/categories/kubernetes/</link>
+    <description>Recent content in Kubernetes on n0k0m3 Dev Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Tue, 25 Apr 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://n0k0m3.github.io/categories/kubernetes/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>JupyterHub on Baremetal Kubernetes - Part 1 - Setting up cluster</title>
+      <link>https://n0k0m3.github.io/posts/nets-deployment/nets-deployment-1/</link>
+      <pubDate>Tue, 25 Apr 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://n0k0m3.github.io/posts/nets-deployment/nets-deployment-1/</guid>
+      <description>Introduction In this blog post, we will guide you through the process of setting up a baremetal Kubernetes cluster tailored specifically for the Neural Transmissions (NETS)1 lab, using NVIDIA DeepOps. JupyterHub, a multi-user server that manages and proxies multiple instances of the Jupyter notebook server, is a perfect fit for this research environment. It facilitates seamless collaboration and sharing of data science projects among researchers. Throughout this tutorial, we will walk you through the steps to set up a Kubernetes cluster on baremetal servers equipped with NVIDIA GPUs, and get it ready for the deployment of JupyterHub.</description>
+    </item>
+    
+  </channel>
+</rss>

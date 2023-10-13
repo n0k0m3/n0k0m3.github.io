@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>n0k0m3 Dev Blog</title>
+    <link>https://n0k0m3.github.io/</link>
+    <description>Recent content on n0k0m3 Dev Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Tue, 25 Apr 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://n0k0m3.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>JupyterHub on Baremetal Kubernetes - Part 1 - Setting up cluster</title>
+      <link>https://n0k0m3.github.io/posts/nets-deployment/nets-deployment-1/</link>
+      <pubDate>Tue, 25 Apr 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://n0k0m3.github.io/posts/nets-deployment/nets-deployment-1/</guid>
+      <description>Introduction In this blog post, we will guide you through the process of setting up a baremetal Kubernetes cluster tailored specifically for the Neural Transmissions (NETS)1 lab, using NVIDIA DeepOps. JupyterHub, a multi-user server that manages and proxies multiple instances of the Jupyter notebook server, is a perfect fit for this research environment. It facilitates seamless collaboration and sharing of data science projects among researchers. Throughout this tutorial, we will walk you through the steps to set up a Kubernetes cluster on baremetal servers equipped with NVIDIA GPUs, and get it ready for the deployment of JupyterHub.</description>
+    </item>
+    
+    <item>
+      <title>Setting up Arch - Part 5 - Bugs Fixes</title>
+      <link>https://n0k0m3.github.io/posts/setting_up_arch/bug_fixes/</link>
+      <pubDate>Tue, 03 May 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://n0k0m3.github.io/posts/setting_up_arch/bug_fixes/</guid>
+      <description>OBS Studio flickering with Intel Graphics With some Intel graphics cards on XOrg (in my case, Tiger Lake Xe), OBS Studio will flicker with screen capture.
+sudo nano /etc/X11/xorg.conf.d/20-intel.conf Section &amp;#34;Device&amp;#34; Identifier &amp;#34;Intel Graphics&amp;#34; Driver &amp;#34;modesetting&amp;#34; EndSection Reboot or restart XOrg server to apply the fix.
+Delete Goodix Fingerprint Sensor saved fingerprint data If you installed Windows and enrolled fingerprints with Goodix Fingerprint Sensor, the saved fingerprint data will prevent new enrollments in Linux.</description>
+    </item>
+    
+    <item>
+      <title>Guide for hacking PSVita on Linux</title>
+      <link>https://n0k0m3.github.io/posts/ps_vita_hacking/</link>
+      <pubDate>Mon, 14 Mar 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://n0k0m3.github.io/posts/ps_vita_hacking/</guid>
+      <description>Follow instructions from https://guide.13375384.xyz/start or https://vita.hacks.guide/.
+Documents for compiling from sources for tools. Guide to mount TexFAT Note: Put device in airplane mode during the Content Manager connection process will make the steps much easier to do.
+DON&amp;rsquo;T MANUALLY SETTING YAMT, JUST USE YAMT SETUP USING VITADEPLOY (guide)
+FinalHE Check prerequisites (https://github.com/soarqin/finalhe)
+git clone https://github.com/soarqin/finalhe cd finalhe qmake &amp;amp;&amp;amp; make Build artifacts in src/FinalHE. Copy VitaDeploy zip in the same folder as FinalHE binary</description>
+    </item>
+    
+    <item>
+      <title>Setting up Arch - Part 4 - Tips and Tricks</title>
+      <link>https://n0k0m3.github.io/posts/setting_up_arch/tips_and_tricks/</link>
+      <pubDate>Thu, 18 Nov 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://n0k0m3.github.io/posts/setting_up_arch/tips_and_tricks/</guid>
+      <description>fstab mount with user permssion Use KDE/GNOME partition manager to manage mount point and use mount options: uid=1000,gid=1001,umask=022
+Or append to /etc/fstab:
+UUID=&amp;lt;disk_UUID&amp;gt; &amp;lt;mount_point&amp;gt; &amp;lt;format&amp;gt; uid=1000,gid=1001,umask=022,noatime 0 1 fstab mount NTFS with kernel NTFS3 driver from kernel 5.15 Use KDE/GNOME partition manager to manage mount point, this will use the default mount.ntfs -&amp;gt; ntfs-3g driver. We need to change the mount driver to mount.ntfs3 in /etc/fstab:
+UUID=&amp;lt;disk_UUID&amp;gt; &amp;lt;mount_point&amp;gt; ntfs3 discard,noatime 0 0 </description>
+    </item>
+    
+    <item>
+      <title>Setting up Arch - Part 3 - Post-Installation Setup</title>
+      <link>https://n0k0m3.github.io/posts/setting_up_arch/post_install/</link>
+      <pubDate>Wed, 17 Nov 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://n0k0m3.github.io/posts/setting_up_arch/post_install/</guid>
+      <description>Install zsh4humans I don&amp;rsquo;t need anything more fancy than romkatv&amp;rsquo;s zsh4humans
+sh -c &amp;#34;$(curl -fsSL https://raw.githubusercontent.com/n0k0m3/Personal-Setup/main/Setting_up_Arch/setup.sh)&amp;#34; Install Nextcloud sudo pacman -S nextcloud-client Sync .dotfiles with Nextcloud + flameshot shortcut
+Setting up pacman and makepkg config sudo nano /etc/pacman.conf Set ParallelDownloads = 10:
+sudo nano /etc/makepkg.conf Set compile flags CFLAGS=&amp;quot;-march=native -mtune=native ...&amp;quot; and MAKEFLAGS=&amp;quot;-j12&amp;quot; for 12 being total number of available cores/threads:
+Comparing current installation with installed packages of previous dist python3 read_install.</description>
+    </item>
+    
+    <item>
+      <title>Setting up Arch - Part 2 - `systemd` hooks with FIDO2 unlock</title>
+      <link>https://n0k0m3.github.io/posts/setting_up_arch/systemd_setup/systemd_setup/</link>
+      <pubDate>Tue, 16 Nov 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://n0k0m3.github.io/posts/setting_up_arch/systemd_setup/systemd_setup/</guid>
+      <description>By default Arch-based distros uses busybox init, which doesn’t support some features comfort from systemd. This guide will help you to setup systemd hooks, switch encryption to LUKS2 for systemd-cryptenroll, use U2F/FIDO2 key to unlock at boot, and Plymouth for boot splash screen.
+systemd hooks and Plymouth boot splash screen Follwing script will change busybox init to systemd hooks and setup plymouth with colorful_loop theme.
+Requirements: yay (default on EndeavourOS)</description>
+    </item>
+    
+    <item>
+      <title>Setting up Arch - Part 1 - Swap on BTRFS</title>
+      <link>https://n0k0m3.github.io/posts/setting_up_arch/setting_up_arch/</link>
+      <pubDate>Mon, 15 Nov 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://n0k0m3.github.io/posts/setting_up_arch/setting_up_arch/</guid>
+      <description>This is setup on EndeavourOS/Manjaro, on barebone Arch should be a little bit different (install yay before all of these steps)
+Arch setup Setting up Manjaro/EndeavourOS with Calamares installer using this partition Setup with SWAP file (turn on hibernation option):
+Partition Mount Point Filesystem Size Encryption Status EFI system partition /boot/efi FAT32 300-550 MB Unencrypted /boot partition /boot/efi ext4 200-500 MB Unencrypted root partition / btrfs/LUKS Rest of space Encrypted Note: mount EFI with boot flag and / with root flag.</description>
+    </item>
+    
+    <item>
+      <title>Tensorflow with GPU support in Docker</title>
+      <link>https://n0k0m3.github.io/posts/tensorflow_docker/</link>
+      <pubDate>Sun, 02 May 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://n0k0m3.github.io/posts/tensorflow_docker/</guid>
+      <description>Following guide was tested on EndeavourOS and Manjaro (Arch-based) Linux distro.
+Why? Installing dependencies and setting up notebooks is usually a PITA: installing CUDA with CuDNN and TensorRT doesn&amp;rsquo;t have a common and easy to follow guide, along with recent (not recent) release of python 3.9, most ML/DL packages are not updated to this wheel. Also setting up venv is hard to maintain and migrate as you have to backup the whole environment to other machine.</description>
+    </item>
+    
+    <item>
+      <title>VFIO Single GPU Passthrough Guide on Linux</title>
+      <link>https://n0k0m3.github.io/posts/single_gpu_passthrough_guide/</link>
+      <pubDate>Sat, 01 May 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://n0k0m3.github.io/posts/single_gpu_passthrough_guide/</guid>
+      <description>Why single GPU passthrough? Because I&amp;rsquo;m poor, using Ryzen non-APU CPU, and I don&amp;rsquo;t want to buy a second GPU just for passthrough. I&amp;rsquo;m using a single GPU passthrough for gaming on Windows and using Linux as my daily driver.
+In this guide, we will be going over how to set up a single GPU passthrough on Linux. This guide is meant to be a reference for myself and others who want to learn how to set up a single GPU passthrough on Linux.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://n0k0m3.github.io/personal-setup/readme/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://n0k0m3.github.io/personal-setup/readme/</guid>
+      <description>Personal setup stash This repo contains all of my personal codes and guides for personal setups. No personal info is here and most scripts work with all common consumer-based distros (Debian/Ubuntu, Arch, maybe RHEL-based, Fedora for some)</description>
+    </item>
+    
+    <item>
+      <title>About</title>
+      <link>https://n0k0m3.github.io/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://n0k0m3.github.io/about/</guid>
+      <description>Hello, and welcome to my digital corner of curiosity and creation!
+I&amp;rsquo;m a Ph.D. student at Florida Tech, delving deep into the realms of Operations Research. My journey of learning is currently focused on the intriguing world of Electronic Health Records (EHRs) and the exciting potential they offer in Synthetic Data Generation.
+My portfolio is a showcase of my endeavors, a collection of past and present projects that I&amp;rsquo;m incredibly proud of.</description>
+    </item>
+    
+    <item>
+      <title>Analysis of ProtonDB Linux Distribution</title>
+      <link>https://n0k0m3.github.io/small-projects/protondb_analysis/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://n0k0m3.github.io/small-projects/protondb_analysis/</guid>
+      <description>Data Preprocessing Notebook link
+Cumulative Results Note: On Dec 2nd 2019, ProtonDB contribute workflow changed to a questionnaire, subsequently changed the data structures. All data prior to this date are for reference only and should NOT be inferred.
+Raw user counts per distro Normalized distro market share on ProtonDB Normalized distro market share on ProtonDB (Merged distro base) Arch Linux and Arch-based distro is on the rise, while Debian-based (Ubuntu) distros are on the decline.</description>
+    </item>
+    
+    <item>
+      <title>Data Analysis Projects</title>
+      <link>https://n0k0m3.github.io/projects/2_data_analysis/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://n0k0m3.github.io/projects/2_data_analysis/</guid>
+      <description>Analysis of ProtonDB Linux Distribution Analyze trends of distributions market share in Gaming segment, based on ProtonDB user reports. Visuals to demonstrate the impact of Steam Deck release on Linux distribution market share. Spotify API Audio Feature Analysis From audio data predict track&amp;rsquo;s attribute, reverse engineer/analyze audio features of Spotify API. A (close to) comprehensive analysis of Spotify API Audio Features. Using datamined audio samples, convert to image representation of audio data.</description>
+    </item>
+    
+    <item>
+      <title>Deep Learning Projects</title>
+      <link>https://n0k0m3.github.io/projects/1_deep_learning/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://n0k0m3.github.io/projects/1_deep_learning/</guid>
+      <description>Deep Transformer Soft Actor-Critic Network for Reinforcement Learning Utilize Transformer as memory module for both Actor and Policy networks Hyperparameter tuning for SAC performance Sentiment Analysis on MyAnimeList User Ratings MyAnimeList is a popular anime rating website. Predict user rating based on review using Recurrent Neural Network (RNN) Setup a data-mining pipeline utilizing self-hosted REST API with a Redis server for caching inside dockerized container Used different models (RNN with LSTM, CNN, CNN with Word2Vec embedding layers) for training and stacking model for ensemble.</description>
+    </item>
+    
+    <item>
+      <title>Games Reverse Engineering and Data Mining Projects</title>
+      <link>https://n0k0m3.github.io/projects/4_game_re/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://n0k0m3.github.io/projects/4_game_re/</guid>
+      <description>Date A Live: Spirit Pledge Game Analysis Assets Decryption Tool: Reverse Engineer mobile game Date A Live: Spirit Pledge using Static analysis tool from NSA ghidra and dynamic analysis tool frida. Re-implement decryption functions using Python, implement methods to convert PowerVR, Ericsson Texture Compression format to digital images format (JPEG/PNG) Assets Mining CD/CI: - Data-mined source logics to find insecure API/server that allows easy download/extraction of new game contents. - Datamining repository above developed decryption tool.</description>
+    </item>
+    
+    <item>
+      <title>Miscellaneous Small Projects</title>
+      <link>https://n0k0m3.github.io/projects/6_small_projects/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://n0k0m3.github.io/projects/6_small_projects/</guid>
+      <description>These repos contains all of my personal codes and guides for personal setups. Most scripts work with all common consumer-based distros (Debian/Ubuntu, Arch, maybe RHEL-based, Fedora for some)
+Library Genesis Torrent Scrapper: Scrapes torrents that need seeding for Library Genesis Project for preservation. Not intended for piracy Jpopsuki Torrent Scrapper: Scrapes small torrents for hoarding seed points on private music tracker Jpopsuki. Not intended for piracy pwned password checker: Check export BitWarden passwords against haveibeenpwned.</description>
+    </item>
+    
+    <item>
+      <title>MLOps/Data Science DevOps Projects</title>
+      <link>https://n0k0m3.github.io/projects/3_devops/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://n0k0m3.github.io/projects/3_devops/</guid>
+      <description>Jupyter Notebook Docker with Spark and DeltaLake support Attempts to replicate Databricks Runtime, plus features from feature-rich jupyter/docker-stacks. Based image on NVIDIA&amp;rsquo;s rapidsai/rapidsai image. Support for Spark/PySpark 3.2.x and Delta Lake 1.1.0. Monthly cronjob to update the image with latest features from upstream jupyter/docker-stacks CD/CI automate building of image and pushing to DockerHub and ghcr.io Docker container for Data Science: Based on Jupyter docker-stack jupyter/datascience-notebook </description>
+    </item>
+    
+    <item>
+      <title>Researches</title>
+      <link>https://n0k0m3.github.io/research/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://n0k0m3.github.io/research/</guid>
+      <description>Privacy‑focused, longitudinal (temporal) generation of synthetic Electronics Health Records with Differential Privacy Electronic health records (EHRs) contain valuable information for medical research and analysis, but they also pose privacy risks for patients and providers. To address this challenge, this work aims to generate synthetic EHRs that preserve the features and patterns of real EHRs, including temporal features, while protecting the privacy of individuals.
+The project involves four main steps:
+Developing a 3D representation of EHRs that captures the temporal and longitudinal aspects of patient data Using generative adversarial networks (GANs) with a privacy-preserving optimizer (using Differential Privacy) to generate realistic and diverse synthetic EHRs from the 3D representation Building a scalable pipeline to transform the synthetic EHRs into synthetic patient records that can be used for research and analysis Measuring the quality and utility of the synthetic data using various metrics, and assessing the privacy of the synthetic data using different privacy attack scenarios.</description>
+    </item>
+    
+    <item>
+      <title>Resume</title>
+      <link>https://n0k0m3.github.io/resume/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://n0k0m3.github.io/resume/</guid>
+      <description>Here you can view and download my latest Resume
+Previous Next &amp;nbsp; &amp;nbsp; / [pdf] View the PDF file here. </description>
+    </item>
+    
+    
+    <item>
+      <title>Self-hosting Projects</title>
+      <link>https://n0k0m3.github.io/projects/5_self_hosting/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://n0k0m3.github.io/projects/5_self_hosting/</guid>
+      <description>Vaultwarden on Cloudflare A turn-key deployment for self-hosting Bitwarden using Cloudflare Tunnel.
+This is very useful for people who want to self-host Bitwarden but don&amp;rsquo;t have a static IP address. With the recent attacks on LastPass and other password manager providers, it&amp;rsquo;s time to take control of your own data. WandB self-hosting license generator For education purpose only, support generating license for self-hosting WandB server.
+Docker Compose for Docker-OSX Quick docker-compose deployment to run macOS in docker environment for security research.</description>
+    </item>
+    
+    <item>
+      <title>Shopify Fall 2022 Data Science Intern Challenge</title>
+      <link>https://n0k0m3.github.io/projects/shopify/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://n0k0m3.github.io/projects/shopify/</guid>
+      <description>Download Notebook{: .btn .btn&amp;ndash;info }
+Note: All graphs and plots are interactive. Feel free to zoom, pan, and edit the graphs for more granular details.
+Question 1 Part A Code import pandas as pd import plotly.express as px px.defaults.width = 600 px.defaults.height = 400 A quick view (first 5 rows) of the data
+Code data = pd.read_csv(&amp;#34;https://docs.google.com/spreadsheets/d/16i38oonuX1y1g7C_UAmiK9GkY7cS-64DfiDMNiR41LM/edit#gid=0&amp;#34;.replace(&amp;#39;/edit#gid=&amp;#39;, &amp;#39;/export?format=csv&amp;amp;gid=&amp;#39;)) data.head() order_id shop_id user_id order_amount total_items payment_method created_at 0 1 53 746 224 2 cash 2017-03-13 12:36:56 1 2 92 925 90 1 cash 2017-03-03 17:38:52 2 3 44 861 144 1 cash 2017-03-14 4:23:56 3 4 18 935 156 1 credit_card 2017-03-26 12:43:37 4 5 18 883 156 1 credit_card 2017-03-01 4:35:11 Code data.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Personal-Setups on n0k0m3 Dev Blog</title>
+    <link>https://n0k0m3.github.io/personal-setup/</link>
+    <description>Recent content in Personal-Setups on n0k0m3 Dev Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language><atom:link href="https://n0k0m3.github.io/personal-setup/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title></title>
+      <link>https://n0k0m3.github.io/personal-setup/readme/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://n0k0m3.github.io/personal-setup/readme/</guid>
+      <description>Personal setup stash This repo contains all of my personal codes and guides for personal setups. No personal info is here and most scripts work with all common consumer-based distros (Debian/Ubuntu, Arch, maybe RHEL-based, Fedora for some)</description>
+    </item>
+    
+  </channel>
+</rss>

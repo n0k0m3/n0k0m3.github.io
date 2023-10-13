@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Projects on n0k0m3 Dev Blog</title>
+    <link>https://n0k0m3.github.io/projects/</link>
+    <description>Recent content in Projects on n0k0m3 Dev Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language><atom:link href="https://n0k0m3.github.io/projects/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Data Analysis Projects</title>
+      <link>https://n0k0m3.github.io/projects/2_data_analysis/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://n0k0m3.github.io/projects/2_data_analysis/</guid>
+      <description>Analysis of ProtonDB Linux Distribution Analyze trends of distributions market share in Gaming segment, based on ProtonDB user reports. Visuals to demonstrate the impact of Steam Deck release on Linux distribution market share. Spotify API Audio Feature Analysis From audio data predict track&amp;rsquo;s attribute, reverse engineer/analyze audio features of Spotify API. A (close to) comprehensive analysis of Spotify API Audio Features. Using datamined audio samples, convert to image representation of audio data.</description>
+    </item>
+    
+    <item>
+      <title>Deep Learning Projects</title>
+      <link>https://n0k0m3.github.io/projects/1_deep_learning/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://n0k0m3.github.io/projects/1_deep_learning/</guid>
+      <description>Deep Transformer Soft Actor-Critic Network for Reinforcement Learning Utilize Transformer as memory module for both Actor and Policy networks Hyperparameter tuning for SAC performance Sentiment Analysis on MyAnimeList User Ratings MyAnimeList is a popular anime rating website. Predict user rating based on review using Recurrent Neural Network (RNN) Setup a data-mining pipeline utilizing self-hosted REST API with a Redis server for caching inside dockerized container Used different models (RNN with LSTM, CNN, CNN with Word2Vec embedding layers) for training and stacking model for ensemble.</description>
+    </item>
+    
+    <item>
+      <title>Games Reverse Engineering and Data Mining Projects</title>
+      <link>https://n0k0m3.github.io/projects/4_game_re/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://n0k0m3.github.io/projects/4_game_re/</guid>
+      <description>Date A Live: Spirit Pledge Game Analysis Assets Decryption Tool: Reverse Engineer mobile game Date A Live: Spirit Pledge using Static analysis tool from NSA ghidra and dynamic analysis tool frida. Re-implement decryption functions using Python, implement methods to convert PowerVR, Ericsson Texture Compression format to digital images format (JPEG/PNG) Assets Mining CD/CI: - Data-mined source logics to find insecure API/server that allows easy download/extraction of new game contents. - Datamining repository above developed decryption tool.</description>
+    </item>
+    
+    <item>
+      <title>Miscellaneous Small Projects</title>
+      <link>https://n0k0m3.github.io/projects/6_small_projects/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://n0k0m3.github.io/projects/6_small_projects/</guid>
+      <description>These repos contains all of my personal codes and guides for personal setups. Most scripts work with all common consumer-based distros (Debian/Ubuntu, Arch, maybe RHEL-based, Fedora for some)
+Library Genesis Torrent Scrapper: Scrapes torrents that need seeding for Library Genesis Project for preservation. Not intended for piracy Jpopsuki Torrent Scrapper: Scrapes small torrents for hoarding seed points on private music tracker Jpopsuki. Not intended for piracy pwned password checker: Check export BitWarden passwords against haveibeenpwned.</description>
+    </item>
+    
+    <item>
+      <title>MLOps/Data Science DevOps Projects</title>
+      <link>https://n0k0m3.github.io/projects/3_devops/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://n0k0m3.github.io/projects/3_devops/</guid>
+      <description>Jupyter Notebook Docker with Spark and DeltaLake support Attempts to replicate Databricks Runtime, plus features from feature-rich jupyter/docker-stacks. Based image on NVIDIA&amp;rsquo;s rapidsai/rapidsai image. Support for Spark/PySpark 3.2.x and Delta Lake 1.1.0. Monthly cronjob to update the image with latest features from upstream jupyter/docker-stacks CD/CI automate building of image and pushing to DockerHub and ghcr.io Docker container for Data Science: Based on Jupyter docker-stack jupyter/datascience-notebook </description>
+    </item>
+    
+    <item>
+      <title>Self-hosting Projects</title>
+      <link>https://n0k0m3.github.io/projects/5_self_hosting/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://n0k0m3.github.io/projects/5_self_hosting/</guid>
+      <description>Vaultwarden on Cloudflare A turn-key deployment for self-hosting Bitwarden using Cloudflare Tunnel.
+This is very useful for people who want to self-host Bitwarden but don&amp;rsquo;t have a static IP address. With the recent attacks on LastPass and other password manager providers, it&amp;rsquo;s time to take control of your own data. WandB self-hosting license generator For education purpose only, support generating license for self-hosting WandB server.
+Docker Compose for Docker-OSX Quick docker-compose deployment to run macOS in docker environment for security research.</description>
+    </item>
+    
+    <item>
+      <title>Shopify Fall 2022 Data Science Intern Challenge</title>
+      <link>https://n0k0m3.github.io/projects/shopify/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://n0k0m3.github.io/projects/shopify/</guid>
+      <description>Download Notebook{: .btn .btn&amp;ndash;info }
+Note: All graphs and plots are interactive. Feel free to zoom, pan, and edit the graphs for more granular details.
+Question 1 Part A Code import pandas as pd import plotly.express as px px.defaults.width = 600 px.defaults.height = 400 A quick view (first 5 rows) of the data
+Code data = pd.read_csv(&amp;#34;https://docs.google.com/spreadsheets/d/16i38oonuX1y1g7C_UAmiK9GkY7cS-64DfiDMNiR41LM/edit#gid=0&amp;#34;.replace(&amp;#39;/edit#gid=&amp;#39;, &amp;#39;/export?format=csv&amp;amp;gid=&amp;#39;)) data.head() order_id shop_id user_id order_amount total_items payment_method created_at 0 1 53 746 224 2 cash 2017-03-13 12:36:56 1 2 92 925 90 1 cash 2017-03-03 17:38:52 2 3 44 861 144 1 cash 2017-03-14 4:23:56 3 4 18 935 156 1 credit_card 2017-03-26 12:43:37 4 5 18 883 156 1 credit_card 2017-03-01 4:35:11 Code data.</description>
+    </item>
+    
+  </channel>
+</rss>
