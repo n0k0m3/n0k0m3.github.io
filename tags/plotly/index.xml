@@ -5,13 +5,14 @@
     <link>https://n0k0m3.github.io/tags/plotly/</link>
     <description>Recent content in Plotly on n0k0m3 Dev Blog</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en</language><atom:link href="https://n0k0m3.github.io/tags/plotly/index.xml" rel="self" type="application/rss+xml" />
+    <language>en</language>
+    <lastBuildDate>Mon, 10 May 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://n0k0m3.github.io/tags/plotly/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Analysis of ProtonDB Linux Distribution</title>
-      <link>https://n0k0m3.github.io/small-projects/protondb_analysis/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <link>https://n0k0m3.github.io/posts/small-projects/protondb_analysis/</link>
+      <pubDate>Mon, 10 May 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://n0k0m3.github.io/small-projects/protondb_analysis/</guid>
+      <guid>https://n0k0m3.github.io/posts/small-projects/protondb_analysis/</guid>
       <description>Data Preprocessing Notebook link
 Cumulative Results Note: On Dec 2nd 2019, ProtonDB contribute workflow changed to a questionnaire, subsequently changed the data structures. All data prior to this date are for reference only and should NOT be inferred.
 Raw user counts per distro Normalized distro market share on ProtonDB Normalized distro market share on ProtonDB (Merged distro base) Arch Linux and Arch-based distro is on the rise, while Debian-based (Ubuntu) distros are on the decline.</description>

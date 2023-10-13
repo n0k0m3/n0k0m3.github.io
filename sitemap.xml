@@ -2,6 +2,24 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://n0k0m3.github.io/projects/1_deep_learning/</loc>
+    <lastmod>2023-10-13T12:50:09-04:00</lastmod>
+  </url><url>
+    <loc>https://n0k0m3.github.io/projects/2_data_analysis/</loc>
+    <lastmod>2023-10-13T12:50:09-04:00</lastmod>
+  </url><url>
+    <loc>https://n0k0m3.github.io/projects/3_devops/</loc>
+    <lastmod>2023-10-13T12:50:09-04:00</lastmod>
+  </url><url>
+    <loc>https://n0k0m3.github.io/projects/4_game_re/</loc>
+    <lastmod>2023-10-13T12:50:09-04:00</lastmod>
+  </url><url>
+    <loc>https://n0k0m3.github.io/projects/5_self_hosting/</loc>
+    <lastmod>2023-10-13T12:50:09-04:00</lastmod>
+  </url><url>
+    <loc>https://n0k0m3.github.io/projects/6_small_projects/</loc>
+    <lastmod>2023-10-13T12:50:09-04:00</lastmod>
+  </url><url>
     <loc>https://n0k0m3.github.io/categories/</loc>
     <lastmod>2023-10-12T22:39:09-04:00</lastmod>
   </url><url>
@@ -24,7 +42,7 @@
     <lastmod>2023-10-12T22:39:09-04:00</lastmod>
   </url><url>
     <loc>https://n0k0m3.github.io/</loc>
-    <lastmod>2023-10-12T22:39:09-04:00</lastmod>
+    <lastmod>2023-10-13T12:50:09-04:00</lastmod>
   </url><url>
     <loc>https://n0k0m3.github.io/posts/</loc>
     <lastmod>2023-10-12T22:39:09-04:00</lastmod>
@@ -62,6 +80,24 @@
     <loc>https://n0k0m3.github.io/posts/setting_up_arch/setting_up_arch/</loc>
     <lastmod>2023-01-16T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>https://n0k0m3.github.io/posts/small-projects/protondb_analysis/</loc>
+    <lastmod>2023-10-11T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://n0k0m3.github.io/tags/plotly/</loc>
+    <lastmod>2023-10-12T22:06:45-04:00</lastmod>
+  </url><url>
+    <loc>https://n0k0m3.github.io/categories/projects/</loc>
+    <lastmod>2023-10-12T22:06:45-04:00</lastmod>
+  </url><url>
+    <loc>https://n0k0m3.github.io/tags/protondb/</loc>
+    <lastmod>2023-10-12T22:06:45-04:00</lastmod>
+  </url><url>
+    <loc>https://n0k0m3.github.io/tags/steam-deck/</loc>
+    <lastmod>2023-10-12T22:06:45-04:00</lastmod>
+  </url><url>
+    <loc>https://n0k0m3.github.io/tags/steamos/</loc>
+    <lastmod>2023-10-12T22:06:45-04:00</lastmod>
+  </url><url>
     <loc>https://n0k0m3.github.io/tags/docker/</loc>
     <lastmod>2023-10-12T22:13:32-04:00</lastmod>
   </url><url>
@@ -83,38 +119,15 @@
     <loc>https://n0k0m3.github.io/personal-setup/readme/</loc>
   </url><url>
     <loc>https://n0k0m3.github.io/about/</loc>
-    <lastmod>2023-10-12T19:58:34-04:00</lastmod>
+    <lastmod>2023-10-13T12:50:09-04:00</lastmod>
   </url><url>
-    <loc>https://n0k0m3.github.io/small-projects/protondb_analysis/</loc>
-  </url><url>
-    <loc>https://n0k0m3.github.io/projects/2_data_analysis/</loc>
-    <lastmod>2023-10-12T22:06:45-04:00</lastmod>
-  </url><url>
-    <loc>https://n0k0m3.github.io/projects/1_deep_learning/</loc>
-    <lastmod>2023-10-12T22:06:45-04:00</lastmod>
-  </url><url>
-    <loc>https://n0k0m3.github.io/projects/4_game_re/</loc>
-    <lastmod>2023-10-12T22:06:45-04:00</lastmod>
-  </url><url>
-    <loc>https://n0k0m3.github.io/projects/6_small_projects/</loc>
-    <lastmod>2023-10-12T22:06:45-04:00</lastmod>
-  </url><url>
-    <loc>https://n0k0m3.github.io/projects/3_devops/</loc>
-    <lastmod>2023-10-12T22:06:45-04:00</lastmod>
+    <loc>https://n0k0m3.github.io/archives/</loc>
+    <lastmod>2023-10-13T12:49:44-04:00</lastmod>
   </url><url>
     <loc>https://n0k0m3.github.io/personal-setup/</loc>
   </url><url>
-    <loc>https://n0k0m3.github.io/tags/plotly/</loc>
-    <lastmod>2023-10-12T22:06:45-04:00</lastmod>
-  </url><url>
-    <loc>https://n0k0m3.github.io/categories/projects/</loc>
-    <lastmod>2023-10-12T22:06:45-04:00</lastmod>
-  </url><url>
     <loc>https://n0k0m3.github.io/projects/</loc>
-    <lastmod>2023-10-12T22:06:45-04:00</lastmod>
-  </url><url>
-    <loc>https://n0k0m3.github.io/tags/protondb/</loc>
-    <lastmod>2023-10-12T22:06:45-04:00</lastmod>
+    <lastmod>2023-10-13T12:50:09-04:00</lastmod>
   </url><url>
     <loc>https://n0k0m3.github.io/research/</loc>
     <lastmod>2023-10-13T00:43:25-04:00</lastmod>
@@ -124,18 +137,7 @@
     <loc>https://n0k0m3.github.io/search/</loc>
     <lastmod>2023-10-12T19:58:34-04:00</lastmod>
   </url><url>
-    <loc>https://n0k0m3.github.io/projects/5_self_hosting/</loc>
-    <lastmod>2023-10-12T22:06:45-04:00</lastmod>
-  </url><url>
     <loc>https://n0k0m3.github.io/projects/shopify/</loc>
-    <lastmod>2023-10-12T22:06:45-04:00</lastmod>
-  </url><url>
-    <loc>https://n0k0m3.github.io/small-projects/</loc>
-  </url><url>
-    <loc>https://n0k0m3.github.io/tags/steam-deck/</loc>
-    <lastmod>2023-10-12T22:06:45-04:00</lastmod>
-  </url><url>
-    <loc>https://n0k0m3.github.io/tags/steamos/</loc>
     <lastmod>2023-10-12T22:06:45-04:00</lastmod>
   </url>
 </urlset>

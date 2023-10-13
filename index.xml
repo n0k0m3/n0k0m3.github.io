@@ -8,6 +8,63 @@
     <language>en</language>
     <lastBuildDate>Tue, 25 Apr 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://n0k0m3.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Deep Learning Projects</title>
+      <link>https://n0k0m3.github.io/projects/1_deep_learning/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://n0k0m3.github.io/projects/1_deep_learning/</guid>
+      <description>Deep Transformer Soft Actor-Critic Network for Reinforcement Learning Utilize Transformer as memory module for both Actor and Policy networks Hyperparameter tuning for SAC performance Sentiment Analysis on MyAnimeList User Ratings MyAnimeList is a popular anime rating website. Predict user rating based on review using Recurrent Neural Network (RNN) Setup a data-mining pipeline utilizing self-hosted REST API with a Redis server for caching inside dockerized container Used different models (RNN with LSTM, CNN, CNN with Word2Vec embedding layers) for training and stacking model for ensemble.</description>
+    </item>
+    
+    <item>
+      <title>Data Analysis Projects</title>
+      <link>https://n0k0m3.github.io/projects/2_data_analysis/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://n0k0m3.github.io/projects/2_data_analysis/</guid>
+      <description>Analysis of ProtonDB Linux Distribution Analyze trends of distributions market share in Gaming segment, based on ProtonDB user reports. Visuals to demonstrate the impact of Steam Deck release on Linux distribution market share. Spotify API Audio Feature Analysis From audio data predict track&amp;rsquo;s attribute, reverse engineer/analyze audio features of Spotify API. A (close to) comprehensive analysis of Spotify API Audio Features. Using datamined audio samples, convert to image representation of audio data.</description>
+    </item>
+    
+    <item>
+      <title>MLOps/Data Science DevOps Projects</title>
+      <link>https://n0k0m3.github.io/projects/3_devops/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://n0k0m3.github.io/projects/3_devops/</guid>
+      <description>Jupyter Notebook Docker with Spark and DeltaLake support Attempts to replicate Databricks Runtime, plus features from feature-rich jupyter/docker-stacks. Based image on NVIDIA&amp;rsquo;s rapidsai/rapidsai image. Support for Spark/PySpark 3.2.x and Delta Lake 1.1.0. Monthly cronjob to update the image with latest features from upstream jupyter/docker-stacks CD/CI automate building of image and pushing to DockerHub and ghcr.io Docker container for Data Science: Based on Jupyter docker-stack jupyter/datascience-notebook </description>
+    </item>
+    
+    <item>
+      <title>Games Reverse Engineering and Data Mining Projects</title>
+      <link>https://n0k0m3.github.io/projects/4_game_re/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://n0k0m3.github.io/projects/4_game_re/</guid>
+      <description>Date A Live: Spirit Pledge Game Analysis Assets Decryption Tool: Reverse Engineer mobile game Date A Live: Spirit Pledge using Static analysis tool from NSA ghidra and dynamic analysis tool frida. Re-implement decryption functions using Python, implement methods to convert PowerVR, Ericsson Texture Compression format to digital images format (JPEG/PNG) Assets Mining CD/CI: - Data-mined source logics to find insecure API/server that allows easy download/extraction of new game contents. - Datamining repository above developed decryption tool.</description>
+    </item>
+    
+    <item>
+      <title>Self-hosting Projects</title>
+      <link>https://n0k0m3.github.io/projects/5_self_hosting/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://n0k0m3.github.io/projects/5_self_hosting/</guid>
+      <description>Vaultwarden on Cloudflare A turn-key deployment for self-hosting Bitwarden using Cloudflare Tunnel.
+This is very useful for people who want to self-host Bitwarden but don&amp;rsquo;t have a static IP address. With the recent attacks on LastPass and other password manager providers, it&amp;rsquo;s time to take control of your own data. WandB self-hosting license generator For education purpose only, support generating license for self-hosting WandB server.
+Docker Compose for Docker-OSX Quick docker-compose deployment to run macOS in docker environment for security research.</description>
+    </item>
+    
+    <item>
+      <title>Miscellaneous Small Projects</title>
+      <link>https://n0k0m3.github.io/projects/6_small_projects/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://n0k0m3.github.io/projects/6_small_projects/</guid>
+      <description>These repos contains all of my personal codes and guides for personal setups. Most scripts work with all common consumer-based distros (Debian/Ubuntu, Arch, maybe RHEL-based, Fedora for some)
+Library Genesis Torrent Scrapper: Scrapes torrents that need seeding for Library Genesis Project for preservation. Not intended for piracy Jpopsuki Torrent Scrapper: Scrapes small torrents for hoarding seed points on private music tracker Jpopsuki. Not intended for piracy pwned password checker: Check export BitWarden passwords against haveibeenpwned.</description>
+    </item>
+    
+    <item>
       <title>JupyterHub on Baremetal Kubernetes - Part 1 - Setting up cluster</title>
       <link>https://n0k0m3.github.io/posts/nets-deployment/nets-deployment-1/</link>
       <pubDate>Tue, 25 Apr 2023 00:00:00 +0000</pubDate>
@@ -88,6 +145,17 @@ Partition Mount Point Filesystem Size Encryption Status EFI system partition /bo
     </item>
     
     <item>
+      <title>Analysis of ProtonDB Linux Distribution</title>
+      <link>https://n0k0m3.github.io/posts/small-projects/protondb_analysis/</link>
+      <pubDate>Mon, 10 May 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://n0k0m3.github.io/posts/small-projects/protondb_analysis/</guid>
+      <description>Data Preprocessing Notebook link
+Cumulative Results Note: On Dec 2nd 2019, ProtonDB contribute workflow changed to a questionnaire, subsequently changed the data structures. All data prior to this date are for reference only and should NOT be inferred.
+Raw user counts per distro Normalized distro market share on ProtonDB Normalized distro market share on ProtonDB (Merged distro base) Arch Linux and Arch-based distro is on the rise, while Debian-based (Ubuntu) distros are on the decline.</description>
+    </item>
+    
+    <item>
       <title>Tensorflow with GPU support in Docker</title>
       <link>https://n0k0m3.github.io/posts/tensorflow_docker/</link>
       <pubDate>Sun, 02 May 2021 00:00:00 +0000</pubDate>
@@ -117,7 +185,7 @@ In this guide, we will be going over how to set up a single GPU passthrough on L
     </item>
     
     <item>
-      <title>About</title>
+      <title>About Me</title>
       <link>https://n0k0m3.github.io/about/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
@@ -127,62 +195,6 @@ I&amp;rsquo;m a Ph.D. student at Florida Tech, delving deep into the realms of O
 My portfolio is a showcase of my endeavors, a collection of past and present projects that I&amp;rsquo;m incredibly proud of.</description>
     </item>
     
-    <item>
-      <title>Analysis of ProtonDB Linux Distribution</title>
-      <link>https://n0k0m3.github.io/small-projects/protondb_analysis/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://n0k0m3.github.io/small-projects/protondb_analysis/</guid>
-      <description>Data Preprocessing Notebook link
-Cumulative Results Note: On Dec 2nd 2019, ProtonDB contribute workflow changed to a questionnaire, subsequently changed the data structures. All data prior to this date are for reference only and should NOT be inferred.
-Raw user counts per distro Normalized distro market share on ProtonDB Normalized distro market share on ProtonDB (Merged distro base) Arch Linux and Arch-based distro is on the rise, while Debian-based (Ubuntu) distros are on the decline.</description>
-    </item>
-    
-    <item>
-      <title>Data Analysis Projects</title>
-      <link>https://n0k0m3.github.io/projects/2_data_analysis/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://n0k0m3.github.io/projects/2_data_analysis/</guid>
-      <description>Analysis of ProtonDB Linux Distribution Analyze trends of distributions market share in Gaming segment, based on ProtonDB user reports. Visuals to demonstrate the impact of Steam Deck release on Linux distribution market share. Spotify API Audio Feature Analysis From audio data predict track&amp;rsquo;s attribute, reverse engineer/analyze audio features of Spotify API. A (close to) comprehensive analysis of Spotify API Audio Features. Using datamined audio samples, convert to image representation of audio data.</description>
-    </item>
-    
-    <item>
-      <title>Deep Learning Projects</title>
-      <link>https://n0k0m3.github.io/projects/1_deep_learning/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://n0k0m3.github.io/projects/1_deep_learning/</guid>
-      <description>Deep Transformer Soft Actor-Critic Network for Reinforcement Learning Utilize Transformer as memory module for both Actor and Policy networks Hyperparameter tuning for SAC performance Sentiment Analysis on MyAnimeList User Ratings MyAnimeList is a popular anime rating website. Predict user rating based on review using Recurrent Neural Network (RNN) Setup a data-mining pipeline utilizing self-hosted REST API with a Redis server for caching inside dockerized container Used different models (RNN with LSTM, CNN, CNN with Word2Vec embedding layers) for training and stacking model for ensemble.</description>
-    </item>
-    
-    <item>
-      <title>Games Reverse Engineering and Data Mining Projects</title>
-      <link>https://n0k0m3.github.io/projects/4_game_re/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://n0k0m3.github.io/projects/4_game_re/</guid>
-      <description>Date A Live: Spirit Pledge Game Analysis Assets Decryption Tool: Reverse Engineer mobile game Date A Live: Spirit Pledge using Static analysis tool from NSA ghidra and dynamic analysis tool frida. Re-implement decryption functions using Python, implement methods to convert PowerVR, Ericsson Texture Compression format to digital images format (JPEG/PNG) Assets Mining CD/CI: - Data-mined source logics to find insecure API/server that allows easy download/extraction of new game contents. - Datamining repository above developed decryption tool.</description>
-    </item>
-    
-    <item>
-      <title>Miscellaneous Small Projects</title>
-      <link>https://n0k0m3.github.io/projects/6_small_projects/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://n0k0m3.github.io/projects/6_small_projects/</guid>
-      <description>These repos contains all of my personal codes and guides for personal setups. Most scripts work with all common consumer-based distros (Debian/Ubuntu, Arch, maybe RHEL-based, Fedora for some)
-Library Genesis Torrent Scrapper: Scrapes torrents that need seeding for Library Genesis Project for preservation. Not intended for piracy Jpopsuki Torrent Scrapper: Scrapes small torrents for hoarding seed points on private music tracker Jpopsuki. Not intended for piracy pwned password checker: Check export BitWarden passwords against haveibeenpwned.</description>
-    </item>
-    
-    <item>
-      <title>MLOps/Data Science DevOps Projects</title>
-      <link>https://n0k0m3.github.io/projects/3_devops/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://n0k0m3.github.io/projects/3_devops/</guid>
-      <description>Jupyter Notebook Docker with Spark and DeltaLake support Attempts to replicate Databricks Runtime, plus features from feature-rich jupyter/docker-stacks. Based image on NVIDIA&amp;rsquo;s rapidsai/rapidsai image. Support for Spark/PySpark 3.2.x and Delta Lake 1.1.0. Monthly cronjob to update the image with latest features from upstream jupyter/docker-stacks CD/CI automate building of image and pushing to DockerHub and ghcr.io Docker container for Data Science: Based on Jupyter docker-stack jupyter/datascience-notebook </description>
-    </item>
     
     <item>
       <title>Researches</title>
@@ -205,17 +217,6 @@ Developing a 3D representation of EHRs that captures the temporal and longitudin
 Previous Next &amp;nbsp; &amp;nbsp; / [pdf] View the PDF file here. </description>
     </item>
     
-    
-    <item>
-      <title>Self-hosting Projects</title>
-      <link>https://n0k0m3.github.io/projects/5_self_hosting/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://n0k0m3.github.io/projects/5_self_hosting/</guid>
-      <description>Vaultwarden on Cloudflare A turn-key deployment for self-hosting Bitwarden using Cloudflare Tunnel.
-This is very useful for people who want to self-host Bitwarden but don&amp;rsquo;t have a static IP address. With the recent attacks on LastPass and other password manager providers, it&amp;rsquo;s time to take control of your own data. WandB self-hosting license generator For education purpose only, support generating license for self-hosting WandB server.
-Docker Compose for Docker-OSX Quick docker-compose deployment to run macOS in docker environment for security research.</description>
-    </item>
     
     <item>
       <title>Shopify Fall 2022 Data Science Intern Challenge</title>
