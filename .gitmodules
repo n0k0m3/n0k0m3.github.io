@@ -2,7 +2,7 @@
 	path = content/Personal-Setup
 	url = https://github.com/n0k0m3/Personal-Setup/
 [submodule "_posts/small-projects"]
-	path = content/small-projects
+	path = content/posts/small-projects
 	url = https://github.com/n0k0m3/small-projects
 [submodule "resume"]
 	path = content/resume
