@@ -1,12 +1,12 @@
+[submodule "_posts/Personal-Setup"]
+	path = content/Personal-Setup
+	url = https://github.com/n0k0m3/Personal-Setup/
+[submodule "_posts/small-projects"]
+	path = content/small-projects
+	url = https://github.com/n0k0m3/small-projects
 [submodule "resume"]
 	path = content/resume
 	url = git@github.com:n0k0m3/resume.git
-[submodule "content/Personal-Setup"]
-	path = content/Personal-Setup
-	url = https://github.com/n0k0m3/Personal-Setup/
-[submodule "content/small-projects"]
-	path = content/small-projects
-	url = https://github.com/n0k0m3/small-projects
 [submodule "themes/ananke"]
 	path = themes/ananke
 	url = https://github.com/theNewDynamic/gohugo-theme-ananke.git
