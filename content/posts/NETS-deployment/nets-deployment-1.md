@@ -8,6 +8,7 @@ tags:
   - JupyterHub
   - Keycloak
 title: JupyterHub on Baremetal Kubernetes - Part 1 - Setting up cluster
+date: 2023-04-25
 ---
 # Introduction
 
