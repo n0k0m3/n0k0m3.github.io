@@ -1,6 +1,6 @@
 ---
 permalink: /about/
-title: "About"
+title: "About Me"
 ---
 
 Hello, and welcome to my digital corner of curiosity and creation!

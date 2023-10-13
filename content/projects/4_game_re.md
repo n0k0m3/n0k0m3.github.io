@@ -1,6 +1,7 @@
 ---
 title: Games Reverse Engineering and Data Mining Projects
 excerpt: "I do enjoy playing games, but more than that, I enjoy breaking down the code, reverse engineering and data mining games."
+weight: 4
 ---
 
 ### Date A Live: Spirit Pledge Game Analysis

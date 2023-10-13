@@ -1,6 +1,7 @@
 ---
 title: Self-hosting Projects
 excerpt: "I'm on an adventure to migrate my life away from Google and Apple chokehold on my data and my life"
+weight: 5
 ---
 
 ### [Vaultwarden on Cloudflare](https://github.com/n0k0m3/vaultwarden_cloudflare)

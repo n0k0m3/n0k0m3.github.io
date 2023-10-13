@@ -1,9 +1,10 @@
 ---
 title: Data Analysis Projects
 excerpt: "Collection of my projects dealing with data analysis and statistical modeling"
+weight: 2
 ---
 
-### [Analysis of ProtonDB Linux Distribution](/small-projects/protondb_analysis/)
+### [Analysis of ProtonDB Linux Distribution](/posts/small-projects/protondb_analysis/)
 
 - Analyze trends of distributions market share in Gaming segment, based on ProtonDB user reports.
 - Visuals to demonstrate the impact of Steam Deck release on Linux distribution market share.

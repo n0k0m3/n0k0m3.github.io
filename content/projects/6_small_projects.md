@@ -1,6 +1,7 @@
 ---
 title: Miscellaneous Small Projects
 excerpt: "A collection of scripts that automates a 10 minutes task that takes 10 hours to develop"
+weight: 6
 ---
 
 These repos contains all of my personal codes and guides for personal setups. Most scripts work with all common consumer-based distros (Debian/Ubuntu, Arch, maybe RHEL-based, Fedora for some)

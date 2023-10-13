@@ -1,6 +1,7 @@
 ---
 title: MLOps/Data Science DevOps Projects
 excerpt: "Attempts to dip my toes into DevOps, while trying to automate my data science environment deployments"
+weight: 3
 ---
 
 ### [Jupyter Notebook Docker with Spark and DeltaLake support](https://github.com/n0k0m3/pyspark-notebook-deltalake-docker)
