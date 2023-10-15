@@ -22,7 +22,7 @@ The project involves four main steps:
 
 [Download PDF](ehr.pdf)
 
-{{< embed-pdf url="ehr.pdf" >}}
+{{< pdfReader url="ehr.pdf" >}}
 
 **Keywords:** electronic health records, synthetic data, generative adversarial networks, differential privacy, temporal features.
 
@@ -36,7 +36,7 @@ We adapt two variants of NeRF, Instant NeRF and D-NeRF, to the RSO domain and ev
 
 [3D Reconstruction of Non-cooperative Resident Space Objects using Instant NGP-accelerated NeRF and D-NeRF](https://arxiv.org/abs/2301.09060)
 
-{{< embed-pdf url="https://arxiv.org/pdf/2301.09060.pdf" >}}
+{{< pdfReader url="https://arxiv.org/pdf/2301.09060.pdf" >}}
 
 **Keywords:** resident space objects, neural radiance fields, 3D reconstruction, functionality identification, on-orbit servicing.
 
@@ -50,7 +50,7 @@ In this paper, we proposed a stochastic estimator that cover these issues of Lur
 
 [Determination of Mutation Rates with Two Symmetric and Asymmetric Mutation Types](https://www.mdpi.com/2073-8994/14/8/1701)
 
-{{< embed-pdf url="https://mdpi-res.com/d_attachment/symmetry/symmetry-14-01701/article_deploy/symmetry-14-01701.pdf" >}}
+{{< pdfReader url="https://mdpi-res.com/d_attachment/symmetry/symmetry-14-01701/article_deploy/symmetry-14-01701.pdf" >}}
 
 **Keywords:** mutation rate, Luria--Delbrück method, stochastic estimator, convergence analysis, empirical validation.
 
