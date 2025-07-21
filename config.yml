@@ -1,6 +1,5 @@
 baseURL: "https://n0k0m3.github.io/"
 title: n0k0m3 Dev Blog
-paginate: 20
 theme: PaperMod
 enableInlineShortcodes: true
 
@@ -174,3 +173,6 @@ ignoreFiles:
   - \.ipynb$
   - \.py$
   - \.README.py$
+
+pagination:
+  pagerSize: 20
