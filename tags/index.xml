@@ -4,134 +4,107 @@
     <title>Tags on n0k0m3 Dev Blog</title>
     <link>https://n0k0m3.github.io/tags/</link>
     <description>Recent content in Tags on n0k0m3 Dev Blog</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo -- 0.148.1</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 25 Apr 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://n0k0m3.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 12 Oct 2023 22:39:09 -0400</lastBuildDate>
+    <atom:link href="https://n0k0m3.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Jupyter</title>
       <link>https://n0k0m3.github.io/tags/jupyter/</link>
       <pubDate>Tue, 25 Apr 2023 00:00:00 +0000</pubDate>
-      
       <guid>https://n0k0m3.github.io/tags/jupyter/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>JupyterHub</title>
       <link>https://n0k0m3.github.io/tags/jupyterhub/</link>
       <pubDate>Tue, 25 Apr 2023 00:00:00 +0000</pubDate>
-      
       <guid>https://n0k0m3.github.io/tags/jupyterhub/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Keycloak</title>
       <link>https://n0k0m3.github.io/tags/keycloak/</link>
       <pubDate>Tue, 25 Apr 2023 00:00:00 +0000</pubDate>
-      
       <guid>https://n0k0m3.github.io/tags/keycloak/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Kubernetes</title>
       <link>https://n0k0m3.github.io/tags/kubernetes/</link>
       <pubDate>Tue, 25 Apr 2023 00:00:00 +0000</pubDate>
-      
       <guid>https://n0k0m3.github.io/tags/kubernetes/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Linux</title>
       <link>https://n0k0m3.github.io/tags/linux/</link>
       <pubDate>Tue, 03 May 2022 00:00:00 +0000</pubDate>
-      
       <guid>https://n0k0m3.github.io/tags/linux/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>PSVita</title>
       <link>https://n0k0m3.github.io/tags/psvita/</link>
       <pubDate>Mon, 14 Mar 2022 00:00:00 +0000</pubDate>
-      
       <guid>https://n0k0m3.github.io/tags/psvita/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Plotly</title>
       <link>https://n0k0m3.github.io/tags/plotly/</link>
       <pubDate>Mon, 10 May 2021 00:00:00 +0000</pubDate>
-      
       <guid>https://n0k0m3.github.io/tags/plotly/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>ProtonDB</title>
       <link>https://n0k0m3.github.io/tags/protondb/</link>
       <pubDate>Mon, 10 May 2021 00:00:00 +0000</pubDate>
-      
       <guid>https://n0k0m3.github.io/tags/protondb/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Steam Deck</title>
       <link>https://n0k0m3.github.io/tags/steam-deck/</link>
       <pubDate>Mon, 10 May 2021 00:00:00 +0000</pubDate>
-      
       <guid>https://n0k0m3.github.io/tags/steam-deck/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>SteamOS</title>
       <link>https://n0k0m3.github.io/tags/steamos/</link>
       <pubDate>Mon, 10 May 2021 00:00:00 +0000</pubDate>
-      
       <guid>https://n0k0m3.github.io/tags/steamos/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Docker</title>
       <link>https://n0k0m3.github.io/tags/docker/</link>
       <pubDate>Sun, 02 May 2021 00:00:00 +0000</pubDate>
-      
       <guid>https://n0k0m3.github.io/tags/docker/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>GPU</title>
       <link>https://n0k0m3.github.io/tags/gpu/</link>
       <pubDate>Sun, 02 May 2021 00:00:00 +0000</pubDate>
-      
       <guid>https://n0k0m3.github.io/tags/gpu/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Tensorflow</title>
       <link>https://n0k0m3.github.io/tags/tensorflow/</link>
       <pubDate>Sun, 02 May 2021 00:00:00 +0000</pubDate>
-      
       <guid>https://n0k0m3.github.io/tags/tensorflow/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>VFIO</title>
       <link>https://n0k0m3.github.io/tags/vfio/</link>
       <pubDate>Sat, 01 May 2021 00:00:00 +0000</pubDate>
-      
       <guid>https://n0k0m3.github.io/tags/vfio/</guid>
       <description></description>
     </item>
-    
   </channel>
 </rss>

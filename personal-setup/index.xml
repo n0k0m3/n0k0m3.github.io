@@ -4,16 +4,16 @@
     <title>Personal-Setups on n0k0m3 Dev Blog</title>
     <link>https://n0k0m3.github.io/personal-setup/</link>
     <description>Recent content in Personal-Setups on n0k0m3 Dev Blog</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en</language><atom:link href="https://n0k0m3.github.io/personal-setup/index.xml" rel="self" type="application/rss+xml" />
+    <generator>Hugo -- 0.148.1</generator>
+    <language>en</language>
+    <atom:link href="https://n0k0m3.github.io/personal-setup/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title></title>
       <link>https://n0k0m3.github.io/personal-setup/readme/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://n0k0m3.github.io/personal-setup/readme/</guid>
-      <description>Personal setup stash This repo contains all of my personal codes and guides for personal setups. No personal info is here and most scripts work with all common consumer-based distros (Debian/Ubuntu, Arch, maybe RHEL-based, Fedora for some)</description>
+      <description>&lt;h1 id=&#34;personal-setup-stash&#34;&gt;Personal setup stash&lt;/h1&gt;
+&lt;p&gt;This repo contains all of my personal codes and guides for personal setups. No personal info is here and most scripts work with all common consumer-based distros (Debian/Ubuntu, Arch, maybe RHEL-based, Fedora for some)&lt;/p&gt;</description>
     </item>
-    
   </channel>
 </rss>

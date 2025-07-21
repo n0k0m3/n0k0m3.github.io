@@ -4,40 +4,96 @@
     <title>Jupyter on n0k0m3 Dev Blog</title>
     <link>https://n0k0m3.github.io/tags/jupyter/</link>
     <description>Recent content in Jupyter on n0k0m3 Dev Blog</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo -- 0.148.1</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 25 Apr 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://n0k0m3.github.io/tags/jupyter/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 12 Oct 2023 22:39:09 -0400</lastBuildDate>
+    <atom:link href="https://n0k0m3.github.io/tags/jupyter/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>JupyterHub on Baremetal Kubernetes - Part 1 - Setting up cluster</title>
       <link>https://n0k0m3.github.io/posts/nets-deployment/nets-deployment-1/</link>
       <pubDate>Tue, 25 Apr 2023 00:00:00 +0000</pubDate>
-      
       <guid>https://n0k0m3.github.io/posts/nets-deployment/nets-deployment-1/</guid>
-      <description>Introduction In this blog post, we will guide you through the process of setting up a baremetal Kubernetes cluster tailored specifically for the Neural Transmissions (NETS)1 lab, using NVIDIA DeepOps. JupyterHub, a multi-user server that manages and proxies multiple instances of the Jupyter notebook server, is a perfect fit for this research environment. It facilitates seamless collaboration and sharing of data science projects among researchers. Throughout this tutorial, we will walk you through the steps to set up a Kubernetes cluster on baremetal servers equipped with NVIDIA GPUs, and get it ready for the deployment of JupyterHub.</description>
+      <description>&lt;h1 id=&#34;introduction&#34;&gt;Introduction&lt;/h1&gt;
+&lt;p&gt;In this blog post, we will guide you through the process of setting up a baremetal Kubernetes cluster tailored specifically for the Neural Transmissions (NETS)&lt;sup id=&#34;fnref:1&#34;&gt;&lt;a href=&#34;#fn:1&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;1&lt;/a&gt;&lt;/sup&gt; lab, using NVIDIA DeepOps. JupyterHub, a multi-user server that manages and proxies multiple instances of the Jupyter notebook server, is a perfect fit for this research environment. It facilitates seamless collaboration and sharing of data science projects among researchers. Throughout this tutorial, we will walk you through the steps to set up a Kubernetes cluster on baremetal servers equipped with NVIDIA GPUs, and get it ready for the deployment of JupyterHub.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Analysis of ProtonDB Linux Distribution</title>
       <link>https://n0k0m3.github.io/posts/small-projects/protondb_analysis/</link>
       <pubDate>Mon, 10 May 2021 00:00:00 +0000</pubDate>
-      
       <guid>https://n0k0m3.github.io/posts/small-projects/protondb_analysis/</guid>
-      <description>Data Preprocessing Notebook link
-Cumulative Results Note: On Dec 2nd 2019, ProtonDB contribute workflow changed to a questionnaire, subsequently changed the data structures. All data prior to this date are for reference only and should NOT be inferred.
-Raw user counts per distro Normalized distro market share on ProtonDB Normalized distro market share on ProtonDB (Merged distro base) Arch Linux and Arch-based distro is on the rise, while Debian-based (Ubuntu) distros are on the decline.</description>
+      <description>&lt;h3 id=&#34;data-preprocessing&#34;&gt;Data Preprocessing&lt;/h3&gt;
+&lt;p&gt;&lt;a href=&#34;https://github.com/n0k0m3/Personal-Setup/blob/main/ProtonDB_Analysis/analysis.ipynb&#34;&gt;Notebook link&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id=&#34;cumulative-results&#34;&gt;Cumulative Results&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;Note:&lt;/strong&gt; On Dec 2nd 2019, ProtonDB contribute workflow changed to a questionnaire, subsequently changed the data structures. All data prior to this date are for reference only and should NOT be inferred.&lt;/p&gt;
+&lt;h4 id=&#34;raw-user-counts-per-distro&#34;&gt;Raw user counts per distro&lt;/h4&gt;
+
+
+&lt;div id=&#34;protondb_data/protondb_user_count.json&#34; class=&#34;plotly&#34; style=&#34;height:600&#34;&gt;&lt;/div&gt;
+&lt;script&gt;
+Plotly.d3.json(&#34;protondb_data/protondb_user_count.json&#34;, function(err, fig) {
+    Plotly.plot(&#39;protondb_data\/protondb_user_count.json&#39;, fig.data, fig.layout, {responsive: true});
+});
+&lt;/script&gt;
+
+&lt;h4 id=&#34;normalized-distro-market-share-on-protondb&#34;&gt;Normalized distro market share on ProtonDB&lt;/h4&gt;
+
+
+&lt;div id=&#34;protondb_data/protondb_market_share.json&#34; class=&#34;plotly&#34; style=&#34;height:600&#34;&gt;&lt;/div&gt;
+&lt;script&gt;
+Plotly.d3.json(&#34;protondb_data/protondb_market_share.json&#34;, function(err, fig) {
+    Plotly.plot(&#39;protondb_data\/protondb_market_share.json&#39;, fig.data, fig.layout, {responsive: true});
+});
+&lt;/script&gt;
+
+&lt;h4 id=&#34;normalized-distro-market-share-on-protondb-merged-distro-base&#34;&gt;Normalized distro market share on ProtonDB (Merged distro base)&lt;/h4&gt;
+&lt;p&gt;
+
+&lt;div id=&#34;protondb_data/protondb_market_share_base.json&#34; class=&#34;plotly&#34; style=&#34;height:600&#34;&gt;&lt;/div&gt;
+&lt;script&gt;
+Plotly.d3.json(&#34;protondb_data/protondb_market_share_base.json&#34;, function(err, fig) {
+    Plotly.plot(&#39;protondb_data\/protondb_market_share_base.json&#39;, fig.data, fig.layout, {responsive: true});
+});
+&lt;/script&gt;
+
+Arch Linux and Arch-based distro is on the rise, while Debian-based (Ubuntu) distros are on the decline.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Shopify Fall 2022 Data Science Intern Challenge</title>
       <link>https://n0k0m3.github.io/projects/shopify/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://n0k0m3.github.io/projects/shopify/</guid>
-      <description>Download Notebook{: .btn .btn&amp;ndash;info }
-Note: All graphs and plots are interactive. Feel free to zoom, pan, and edit the graphs for more granular details.
-Question 1 Part A Code import pandas as pd import plotly.express as px px.defaults.width = 600 px.defaults.height = 400 A quick view (first 5 rows) of the data
-Code data = pd.read_csv(&amp;#34;https://docs.google.com/spreadsheets/d/16i38oonuX1y1g7C_UAmiK9GkY7cS-64DfiDMNiR41LM/edit#gid=0&amp;#34;.replace(&amp;#39;/edit#gid=&amp;#39;, &amp;#39;/export?format=csv&amp;amp;gid=&amp;#39;)) data.head() order_id shop_id user_id order_amount total_items payment_method created_at 0 1 53 746 224 2 cash 2017-03-13 12:36:56 1 2 92 925 90 1 cash 2017-03-03 17:38:52 2 3 44 861 144 1 cash 2017-03-14 4:23:56 3 4 18 935 156 1 credit_card 2017-03-26 12:43:37 4 5 18 883 156 1 credit_card 2017-03-01 4:35:11 Code data.</description>
+      <description>&lt;p&gt;&lt;a href=&#34;https://github.com/n0k0m3/n0k0m3.github.io/blob/main/_projects/shopify/datascience.ipynb&#34;&gt;Download Notebook&lt;/a&gt;{: .btn .btn&amp;ndash;info }&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Note:&lt;/strong&gt; All graphs and plots are interactive. Feel free to zoom, pan, and edit the graphs for more granular details.&lt;/p&gt;
+&lt;h2 id=&#34;question-1&#34;&gt;Question 1&lt;/h2&gt;
+&lt;h3 id=&#34;part-a&#34;&gt;Part A&lt;/h3&gt;
+&lt;details&gt;
+&lt;summary&gt;Code&lt;/summary&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;kn&#34;&gt;import&lt;/span&gt; &lt;span class=&#34;nn&#34;&gt;pandas&lt;/span&gt; &lt;span class=&#34;k&#34;&gt;as&lt;/span&gt; &lt;span class=&#34;nn&#34;&gt;pd&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;kn&#34;&gt;import&lt;/span&gt; &lt;span class=&#34;nn&#34;&gt;plotly.express&lt;/span&gt; &lt;span class=&#34;k&#34;&gt;as&lt;/span&gt; &lt;span class=&#34;nn&#34;&gt;px&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;n&#34;&gt;px&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;defaults&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;width&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;600&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;n&#34;&gt;px&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;defaults&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;height&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;400&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/details&gt;
+&lt;p&gt;A quick view (first 5 rows) of the data&lt;/p&gt;
+&lt;details&gt;
+&lt;summary&gt;Code&lt;/summary&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;n&#34;&gt;data&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;pd&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;read_csv&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;&amp;#34;https://docs.google.com/spreadsheets/d/16i38oonuX1y1g7C_UAmiK9GkY7cS-64DfiDMNiR41LM/edit#gid=0&amp;#34;&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;replace&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;s1&#34;&gt;&amp;#39;/edit#gid=&amp;#39;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;s1&#34;&gt;&amp;#39;/export?format=csv&amp;amp;gid=&amp;#39;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;))&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;n&#34;&gt;data&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;head&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;()&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/details&gt;
+&lt;div&gt;
+&lt;style scoped&gt;
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+&lt;pre&gt;&lt;code&gt;.dataframe tbody tr th {
+    vertical-align: top;
+}
+
+.dataframe thead th {
+    text-align: right;
+}
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;/style&gt;&lt;/p&gt;</description>
     </item>
-    
   </channel>
 </rss>

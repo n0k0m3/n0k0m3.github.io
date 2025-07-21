@@ -4,76 +4,174 @@
     <title>Projects on n0k0m3 Dev Blog</title>
     <link>https://n0k0m3.github.io/projects/</link>
     <description>Recent content in Projects on n0k0m3 Dev Blog</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en</language><atom:link href="https://n0k0m3.github.io/projects/index.xml" rel="self" type="application/rss+xml" />
+    <generator>Hugo -- 0.148.1</generator>
+    <language>en</language>
+    <atom:link href="https://n0k0m3.github.io/projects/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Deep Learning Projects</title>
       <link>https://n0k0m3.github.io/projects/1_deep_learning/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://n0k0m3.github.io/projects/1_deep_learning/</guid>
-      <description>Deep Transformer Soft Actor-Critic Network for Reinforcement Learning Utilize Transformer as memory module for both Actor and Policy networks Hyperparameter tuning for SAC performance Sentiment Analysis on MyAnimeList User Ratings MyAnimeList is a popular anime rating website. Predict user rating based on review using Recurrent Neural Network (RNN) Setup a data-mining pipeline utilizing self-hosted REST API with a Redis server for caching inside dockerized container Used different models (RNN with LSTM, CNN, CNN with Word2Vec embedding layers) for training and stacking model for ensemble.</description>
+      <description>&lt;h3 id=&#34;deep-transformer-soft-actor-critic-network-for-reinforcement-learning&#34;&gt;&lt;a href=&#34;https://github.com/sesem738/Frankenstein&#34;&gt;Deep Transformer Soft Actor-Critic Network for Reinforcement Learning&lt;/a&gt;&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Utilize Transformer as memory module for both Actor and Policy networks&lt;/li&gt;
+&lt;li&gt;Hyperparameter tuning for SAC performance&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;sentiment-analysis-on-myanimelist-user-ratings&#34;&gt;&lt;a href=&#34;https://github.com/n0k0m3/rnn-mal-sentiment&#34;&gt;Sentiment Analysis on MyAnimeList User Ratings&lt;/a&gt;&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;MyAnimeList is a popular anime rating website.&lt;/li&gt;
+&lt;li&gt;Predict user rating based on review using Recurrent Neural Network (RNN)&lt;/li&gt;
+&lt;li&gt;Setup a data-mining pipeline utilizing self-hosted REST API with a Redis server for caching inside dockerized container&lt;/li&gt;
+&lt;li&gt;Used different models (RNN with LSTM, CNN, CNN with Word2Vec embedding layers) for training and stacking model for ensemble.&lt;/li&gt;
+&lt;li&gt;Achieved 94% validation accuracy with ensemble model&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;classification-of-extended-mnist-using-persistent-homology&#34;&gt;&lt;a href=&#34;https://colab.research.google.com/drive/18z161k3diYO6sNVBfiKH8uGqbrekxMPN?usp=sharing#scrollTo=0Y6rquBvdjEG&#34;&gt;Classification of Extended MNIST using Persistent Homology&lt;/a&gt;&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;EMNIST dataset is MNIST (handwritten digit) dataset with handwritten &lt;strong&gt;characters&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;Applied Persistent Homology and Principal Component Analysis to reduce the dimensionality of dataset. Reduced feature size from 784 (28x28) to 35 while retaining 99% variance&lt;/li&gt;
+&lt;li&gt;Utilized libraries &lt;code&gt;giotto-ai&lt;/code&gt; along-side standard deep learning libraries &lt;code&gt;sklearn&lt;/code&gt;, &lt;code&gt;NumPy&lt;/code&gt;, &lt;code&gt;Tensorflow/Keras&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Achieved 97%-91% training-testing accuracy with a shallow neural network with only 3 hidden layers&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;utilization-of-cnn-in-speech-recognition&#34;&gt;&lt;a href=&#34;https://colab.research.google.com/drive/1KCJjwgW6VDlANLmXYTotatk2xux3nw0N?usp=sharing&#34;&gt;Utilization of CNN in speech recognition&lt;/a&gt;&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Classify Google Speech Command using Convolutional Neural Network (CNN) on audio data&lt;/li&gt;
+&lt;li&gt;Created pipelines to process audio data to image features&lt;/li&gt;
+&lt;li&gt;Audio data augmentation with respect to image features&lt;/li&gt;
+&lt;li&gt;Used multiple CNN architectures (LeNet, MiniGoogleNet, AlexNet) for training and stacking model for ensemble.&lt;/li&gt;
+&lt;li&gt;Achieved 91% validation accuracy with ensemble model.&lt;/li&gt;
+&lt;/ul&gt;</description>
     </item>
-    
     <item>
       <title>Data Analysis Projects</title>
       <link>https://n0k0m3.github.io/projects/2_data_analysis/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://n0k0m3.github.io/projects/2_data_analysis/</guid>
-      <description>Analysis of ProtonDB Linux Distribution Analyze trends of distributions market share in Gaming segment, based on ProtonDB user reports. Visuals to demonstrate the impact of Steam Deck release on Linux distribution market share. Spotify API Audio Feature Analysis From audio data predict track&amp;rsquo;s attribute, reverse engineer/analyze audio features of Spotify API. A (close to) comprehensive analysis of Spotify API Audio Features. Using datamined audio samples, convert to image representation of audio data.</description>
+      <description>&lt;h3 id=&#34;analysis-of-protondb-linux-distribution&#34;&gt;&lt;a href=&#34;https://n0k0m3.github.io/posts/small-projects/protondb_analysis/&#34;&gt;Analysis of ProtonDB Linux Distribution&lt;/a&gt;&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Analyze trends of distributions market share in Gaming segment, based on ProtonDB user reports.&lt;/li&gt;
+&lt;li&gt;Visuals to demonstrate the impact of Steam Deck release on Linux distribution market share.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;spotify-api-audio-feature-analysis&#34;&gt;&lt;a href=&#34;https://github.com/n0k0m3/Spotify-API-Audio-Feature-Analysis&#34;&gt;Spotify API Audio Feature Analysis&lt;/a&gt;&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;From &lt;strong&gt;audio data&lt;/strong&gt; predict track&amp;rsquo;s attribute, reverse engineer/analyze audio features of Spotify API.&lt;/li&gt;
+&lt;li&gt;A (close to) comprehensive analysis of Spotify API Audio Features.&lt;/li&gt;
+&lt;li&gt;Using datamined &lt;strong&gt;audio samples&lt;/strong&gt;, convert to image representation of audio data.&lt;/li&gt;
+&lt;li&gt;Use image representation to predict Spotify audio features.&lt;/li&gt;
+&lt;/ul&gt;</description>
     </item>
-    
     <item>
       <title>MLOps/Data Science DevOps Projects</title>
       <link>https://n0k0m3.github.io/projects/3_devops/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://n0k0m3.github.io/projects/3_devops/</guid>
-      <description>Jupyter Notebook Docker with Spark and DeltaLake support Attempts to replicate Databricks Runtime, plus features from feature-rich jupyter/docker-stacks. Based image on NVIDIA&amp;rsquo;s rapidsai/rapidsai image. Support for Spark/PySpark 3.2.x and Delta Lake 1.1.0. Monthly cronjob to update the image with latest features from upstream jupyter/docker-stacks CD/CI automate building of image and pushing to DockerHub and ghcr.io Docker container for Data Science: Based on Jupyter docker-stack jupyter/datascience-notebook </description>
+      <description>&lt;h3 id=&#34;jupyter-notebook-docker-with-spark-and-deltalake-support&#34;&gt;&lt;a href=&#34;https://github.com/n0k0m3/pyspark-notebook-deltalake-docker&#34;&gt;Jupyter Notebook Docker with Spark and DeltaLake support&lt;/a&gt;&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Attempts to replicate &lt;code&gt;Databricks Runtime&lt;/code&gt;, plus features from feature-rich jupyter/docker-stacks.&lt;/li&gt;
+&lt;li&gt;Based image on NVIDIA&amp;rsquo;s &lt;code&gt;rapidsai/rapidsai&lt;/code&gt; image.&lt;/li&gt;
+&lt;li&gt;Support for &lt;a href=&#34;https://spark.apache.org/downloads.html&#34;&gt;Spark&lt;/a&gt;/&lt;a href=&#34;https://spark.apache.org/docs/latest/api/python/&#34;&gt;PySpark&lt;/a&gt; 3.2.x and &lt;a href=&#34;https://delta.io/&#34;&gt;Delta Lake&lt;/a&gt; 1.1.0.&lt;/li&gt;
+&lt;li&gt;Monthly cronjob to update the image with latest features from upstream &lt;code&gt;jupyter/docker-stacks&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;CD/CI automate building of image and pushing to &lt;code&gt;DockerHub&lt;/code&gt; and &lt;code&gt;ghcr.io&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;docker-container-for-data-science&#34;&gt;&lt;a href=&#34;https://github.com/n0k0m3/datascience-notebook-docker&#34;&gt;Docker container for Data Science&lt;/a&gt;:&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Based on Jupyter docker-stack &lt;code&gt;jupyter/datascience-notebook&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
     </item>
-    
     <item>
       <title>Games Reverse Engineering and Data Mining Projects</title>
       <link>https://n0k0m3.github.io/projects/4_game_re/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://n0k0m3.github.io/projects/4_game_re/</guid>
-      <description>Date A Live: Spirit Pledge Game Analysis Assets Decryption Tool: Reverse Engineer mobile game Date A Live: Spirit Pledge using Static analysis tool from NSA ghidra and dynamic analysis tool frida. Re-implement decryption functions using Python, implement methods to convert PowerVR, Ericsson Texture Compression format to digital images format (JPEG/PNG) Assets Mining CD/CI: - Data-mined source logics to find insecure API/server that allows easy download/extraction of new game contents. - Datamining repository above developed decryption tool.</description>
+      <description>&lt;h3 id=&#34;date-a-live-spirit-pledge-game-analysis&#34;&gt;Date A Live: Spirit Pledge Game Analysis&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/n0k0m3/DALSP-Assets-Decryption-tool&#34;&gt;Assets Decryption Tool&lt;/a&gt;:
+&lt;ul&gt;
+&lt;li&gt;Reverse Engineer mobile game Date A Live: Spirit Pledge using Static analysis tool from NSA ghidra and dynamic analysis tool frida.&lt;/li&gt;
+&lt;li&gt;Re-implement decryption functions using Python, implement methods to convert PowerVR, Ericsson Texture Compression format to digital images format (JPEG/PNG)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/n0k0m3/DateALiveData&#34;&gt;Assets Mining CD/CI&lt;/a&gt;: - Data-mined source logics to find insecure API/server that allows easy download/extraction of new game contents. - Datamining repository above developed decryption tool. Using cronjob
+and Github Action to automate fetch, decrypt and datamine new contents.&lt;/li&gt;
+&lt;li&gt;Usable mined data examples:
+&lt;ul&gt;
+&lt;li&gt;Extract Live2D assets compatible with Live2DViewerEX: &lt;a href=&#34;https://github.com/n0k0m3/DALSP-Live2D&#34;&gt;Link&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Dating Route and Favorites: &lt;a href=&#34;https://github.com/n0k0m3/DALSP-Dating-Routes-Dump&#34;&gt;Link&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;other-games-reverse-engineeringanalysis&#34;&gt;Other games reverse engineering/analysis&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/n0k0m3/Azur-Lane-Scripts-Autopatcher&#34;&gt;Azur Lane (Autopatcher)&lt;/a&gt;: Reverse engineer Azur Lane game client and edit (patch) the game logic automatically.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/n0k0m3/Arknights-Lua-Decrypter&#34;&gt;Arknights Assets Decryption&lt;/a&gt;: Decrypt Arknights game assets by extracting AES encryption key via dynamic analysis (Frida).&lt;/li&gt;
+&lt;/ul&gt;
+&lt;!-- - [D4DJ Assets Decryption](https://github.com/n0k0m3/D4DJ) --&gt;</description>
     </item>
-    
     <item>
       <title>Self-hosting Projects</title>
       <link>https://n0k0m3.github.io/projects/5_self_hosting/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://n0k0m3.github.io/projects/5_self_hosting/</guid>
-      <description>Vaultwarden on Cloudflare A turn-key deployment for self-hosting Bitwarden using Cloudflare Tunnel.
-This is very useful for people who want to self-host Bitwarden but don&amp;rsquo;t have a static IP address. With the recent attacks on LastPass and other password manager providers, it&amp;rsquo;s time to take control of your own data. WandB self-hosting license generator For education purpose only, support generating license for self-hosting WandB server.
-Docker Compose for Docker-OSX Quick docker-compose deployment to run macOS in docker environment for security research.</description>
+      <description>&lt;h3 id=&#34;vaultwarden-on-cloudflare&#34;&gt;&lt;a href=&#34;https://github.com/n0k0m3/vaultwarden_cloudflare&#34;&gt;Vaultwarden on Cloudflare&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;A turn-key deployment for self-hosting Bitwarden using Cloudflare Tunnel.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;This is very useful for people who want to self-host Bitwarden but don&amp;rsquo;t have a static IP address.&lt;/li&gt;
+&lt;li&gt;With the recent attacks on LastPass and other password manager providers, it&amp;rsquo;s time to take control of your own data.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;wandb-self-hosting-license-generator&#34;&gt;&lt;a href=&#34;https://github.com/n0k0m3/wandb_local_lic&#34;&gt;WandB self-hosting license generator&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;For education purpose only, support generating license for self-hosting WandB server.&lt;/p&gt;
+&lt;h3 id=&#34;docker-compose-for-docker-osx&#34;&gt;&lt;a href=&#34;https://github.com/n0k0m3/docker-osx-compose&#34;&gt;Docker Compose for Docker-OSX&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;Quick &lt;code&gt;docker-compose&lt;/code&gt; deployment to run macOS in docker environment for security research.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Miscellaneous Small Projects</title>
       <link>https://n0k0m3.github.io/projects/6_small_projects/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://n0k0m3.github.io/projects/6_small_projects/</guid>
-      <description>These repos contains all of my personal codes and guides for personal setups. Most scripts work with all common consumer-based distros (Debian/Ubuntu, Arch, maybe RHEL-based, Fedora for some)
-Library Genesis Torrent Scrapper: Scrapes torrents that need seeding for Library Genesis Project for preservation. Not intended for piracy Jpopsuki Torrent Scrapper: Scrapes small torrents for hoarding seed points on private music tracker Jpopsuki. Not intended for piracy pwned password checker: Check export BitWarden passwords against haveibeenpwned.</description>
+      <description>&lt;p&gt;These repos contains all of my personal codes and guides for personal setups. Most scripts work with all common consumer-based distros (Debian/Ubuntu, Arch, maybe RHEL-based, Fedora for some)&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/n0k0m3/Personal-Setup/blob/main/Libgen_torrent_scrape/&#34;&gt;Library Genesis Torrent Scrapper&lt;/a&gt;: Scrapes torrents that need seeding for Library Genesis Project for preservation. Not intended for piracy&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/n0k0m3/jpopsuki-scraping&#34;&gt;Jpopsuki Torrent Scrapper&lt;/a&gt;: Scrapes small torrents for hoarding seed points on private music tracker Jpopsuki. Not intended for piracy&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/n0k0m3/bitwarden-haveibeenpwned&#34;&gt;pwned password checker&lt;/a&gt;: Check export BitWarden passwords against haveibeenpwned.com API.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/n0k0m3/revanced-build-template&#34;&gt;ReVanced Build Action&lt;/a&gt;: For education purpose only, support building ReVanced - a modded YouTube app for Android with a single click using Github Actions.&lt;/li&gt;
+&lt;/ul&gt;</description>
     </item>
-    
     <item>
       <title>Shopify Fall 2022 Data Science Intern Challenge</title>
       <link>https://n0k0m3.github.io/projects/shopify/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://n0k0m3.github.io/projects/shopify/</guid>
-      <description>Download Notebook{: .btn .btn&amp;ndash;info }
-Note: All graphs and plots are interactive. Feel free to zoom, pan, and edit the graphs for more granular details.
-Question 1 Part A Code import pandas as pd import plotly.express as px px.defaults.width = 600 px.defaults.height = 400 A quick view (first 5 rows) of the data
-Code data = pd.read_csv(&amp;#34;https://docs.google.com/spreadsheets/d/16i38oonuX1y1g7C_UAmiK9GkY7cS-64DfiDMNiR41LM/edit#gid=0&amp;#34;.replace(&amp;#39;/edit#gid=&amp;#39;, &amp;#39;/export?format=csv&amp;amp;gid=&amp;#39;)) data.head() order_id shop_id user_id order_amount total_items payment_method created_at 0 1 53 746 224 2 cash 2017-03-13 12:36:56 1 2 92 925 90 1 cash 2017-03-03 17:38:52 2 3 44 861 144 1 cash 2017-03-14 4:23:56 3 4 18 935 156 1 credit_card 2017-03-26 12:43:37 4 5 18 883 156 1 credit_card 2017-03-01 4:35:11 Code data.</description>
+      <description>&lt;p&gt;&lt;a href=&#34;https://github.com/n0k0m3/n0k0m3.github.io/blob/main/_projects/shopify/datascience.ipynb&#34;&gt;Download Notebook&lt;/a&gt;{: .btn .btn&amp;ndash;info }&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Note:&lt;/strong&gt; All graphs and plots are interactive. Feel free to zoom, pan, and edit the graphs for more granular details.&lt;/p&gt;
+&lt;h2 id=&#34;question-1&#34;&gt;Question 1&lt;/h2&gt;
+&lt;h3 id=&#34;part-a&#34;&gt;Part A&lt;/h3&gt;
+&lt;details&gt;
+&lt;summary&gt;Code&lt;/summary&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;kn&#34;&gt;import&lt;/span&gt; &lt;span class=&#34;nn&#34;&gt;pandas&lt;/span&gt; &lt;span class=&#34;k&#34;&gt;as&lt;/span&gt; &lt;span class=&#34;nn&#34;&gt;pd&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;kn&#34;&gt;import&lt;/span&gt; &lt;span class=&#34;nn&#34;&gt;plotly.express&lt;/span&gt; &lt;span class=&#34;k&#34;&gt;as&lt;/span&gt; &lt;span class=&#34;nn&#34;&gt;px&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;n&#34;&gt;px&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;defaults&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;width&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;600&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;n&#34;&gt;px&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;defaults&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;height&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;400&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/details&gt;
+&lt;p&gt;A quick view (first 5 rows) of the data&lt;/p&gt;
+&lt;details&gt;
+&lt;summary&gt;Code&lt;/summary&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;n&#34;&gt;data&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;pd&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;read_csv&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;&amp;#34;https://docs.google.com/spreadsheets/d/16i38oonuX1y1g7C_UAmiK9GkY7cS-64DfiDMNiR41LM/edit#gid=0&amp;#34;&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;replace&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;s1&#34;&gt;&amp;#39;/edit#gid=&amp;#39;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;s1&#34;&gt;&amp;#39;/export?format=csv&amp;amp;gid=&amp;#39;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;))&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;n&#34;&gt;data&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;head&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;()&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/details&gt;
+&lt;div&gt;
+&lt;style scoped&gt;
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+&lt;pre&gt;&lt;code&gt;.dataframe tbody tr th {
+    vertical-align: top;
+}
+
+.dataframe thead th {
+    text-align: right;
+}
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;/style&gt;&lt;/p&gt;</description>
     </item>
-    
   </channel>
 </rss>

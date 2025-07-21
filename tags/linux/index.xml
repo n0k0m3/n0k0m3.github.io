@@ -4,99 +4,150 @@
     <title>Linux on n0k0m3 Dev Blog</title>
     <link>https://n0k0m3.github.io/tags/linux/</link>
     <description>Recent content in Linux on n0k0m3 Dev Blog</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo -- 0.148.1</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 03 May 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://n0k0m3.github.io/tags/linux/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 12 Oct 2023 22:13:32 -0400</lastBuildDate>
+    <atom:link href="https://n0k0m3.github.io/tags/linux/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Setting up Arch - Part 5 - Bugs Fixes</title>
       <link>https://n0k0m3.github.io/posts/setting_up_arch/bug_fixes/</link>
       <pubDate>Tue, 03 May 2022 00:00:00 +0000</pubDate>
-      
       <guid>https://n0k0m3.github.io/posts/setting_up_arch/bug_fixes/</guid>
-      <description>OBS Studio flickering with Intel Graphics With some Intel graphics cards on XOrg (in my case, Tiger Lake Xe), OBS Studio will flicker with screen capture.
-sudo nano /etc/X11/xorg.conf.d/20-intel.conf Section &amp;#34;Device&amp;#34; Identifier &amp;#34;Intel Graphics&amp;#34; Driver &amp;#34;modesetting&amp;#34; EndSection Reboot or restart XOrg server to apply the fix.
-Delete Goodix Fingerprint Sensor saved fingerprint data If you installed Windows and enrolled fingerprints with Goodix Fingerprint Sensor, the saved fingerprint data will prevent new enrollments in Linux.</description>
+      <description>&lt;h2 id=&#34;obs-studio-flickering-with-intel-graphics&#34;&gt;OBS Studio flickering with Intel Graphics&lt;/h2&gt;
+&lt;p&gt;With some Intel graphics cards on XOrg (in my case, Tiger Lake Xe), OBS Studio will flicker with screen capture.&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-sh&#34; data-lang=&#34;sh&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;sudo nano /etc/X11/xorg.conf.d/20-intel.conf
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;Section &amp;#34;Device&amp;#34;
+    Identifier &amp;#34;Intel Graphics&amp;#34;
+    Driver &amp;#34;modesetting&amp;#34;
+EndSection
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;Reboot or restart XOrg server to apply the fix.&lt;/p&gt;
+&lt;h2 id=&#34;delete-goodix-fingerprint-sensor-saved-fingerprint-data&#34;&gt;Delete Goodix Fingerprint Sensor saved fingerprint data&lt;/h2&gt;
+&lt;p&gt;If you installed Windows and enrolled fingerprints with Goodix Fingerprint Sensor, the saved fingerprint data will prevent new enrollments in Linux.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Guide for hacking PSVita on Linux</title>
       <link>https://n0k0m3.github.io/posts/ps_vita_hacking/</link>
       <pubDate>Mon, 14 Mar 2022 00:00:00 +0000</pubDate>
-      
       <guid>https://n0k0m3.github.io/posts/ps_vita_hacking/</guid>
-      <description>Follow instructions from https://guide.13375384.xyz/start or https://vita.hacks.guide/.
-Documents for compiling from sources for tools. Guide to mount TexFAT Note: Put device in airplane mode during the Content Manager connection process will make the steps much easier to do.
-DON&amp;rsquo;T MANUALLY SETTING YAMT, JUST USE YAMT SETUP USING VITADEPLOY (guide)
-FinalHE Check prerequisites (https://github.com/soarqin/finalhe)
-git clone https://github.com/soarqin/finalhe cd finalhe qmake &amp;amp;&amp;amp; make Build artifacts in src/FinalHE. Copy VitaDeploy zip in the same folder as FinalHE binary</description>
+      <description>&lt;p&gt;Follow instructions from &lt;a href=&#34;https://guide.13375384.xyz/start&#34;&gt;https://guide.13375384.xyz/start&lt;/a&gt; or &lt;a href=&#34;https://vita.hacks.guide/&#34;&gt;https://vita.hacks.guide/&lt;/a&gt;.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Documents for compiling from sources for tools.&lt;/li&gt;
+&lt;li&gt;Guide to mount TexFAT&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Note:&lt;/strong&gt; Put device in airplane mode during the &lt;code&gt;Content Manager&lt;/code&gt; connection process will make the steps much easier to do.&lt;/p&gt;
+&lt;p&gt;DON&amp;rsquo;T MANUALLY SETTING YAMT, JUST USE YAMT SETUP USING VITADEPLOY (&lt;a href=&#34;https://guide.13375384.xyz/start&#34;&gt;guide&lt;/a&gt;)&lt;/p&gt;
+&lt;h2 id=&#34;finalhe&#34;&gt;FinalHE&lt;/h2&gt;
+&lt;p&gt;Check prerequisites (&lt;a href=&#34;https://github.com/soarqin/finalhe&#34;&gt;https://github.com/soarqin/finalhe&lt;/a&gt;)&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-sh&#34; data-lang=&#34;sh&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;git clone https://github.com/soarqin/finalhe
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nb&#34;&gt;cd&lt;/span&gt; finalhe
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;qmake &lt;span class=&#34;o&#34;&gt;&amp;amp;&amp;amp;&lt;/span&gt; make
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Build artifacts in &lt;code&gt;src/FinalHE&lt;/code&gt;. Copy &lt;code&gt;VitaDeploy&lt;/code&gt; zip in the same folder as &lt;code&gt;FinalHE&lt;/code&gt; binary&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Setting up Arch - Part 4 - Tips and Tricks</title>
       <link>https://n0k0m3.github.io/posts/setting_up_arch/tips_and_tricks/</link>
       <pubDate>Thu, 18 Nov 2021 00:00:00 +0000</pubDate>
-      
       <guid>https://n0k0m3.github.io/posts/setting_up_arch/tips_and_tricks/</guid>
-      <description>fstab mount with user permssion Use KDE/GNOME partition manager to manage mount point and use mount options: uid=1000,gid=1001,umask=022
-Or append to /etc/fstab:
-UUID=&amp;lt;disk_UUID&amp;gt; &amp;lt;mount_point&amp;gt; &amp;lt;format&amp;gt; uid=1000,gid=1001,umask=022,noatime 0 1 fstab mount NTFS with kernel NTFS3 driver from kernel 5.15 Use KDE/GNOME partition manager to manage mount point, this will use the default mount.ntfs -&amp;gt; ntfs-3g driver. We need to change the mount driver to mount.ntfs3 in /etc/fstab:
-UUID=&amp;lt;disk_UUID&amp;gt; &amp;lt;mount_point&amp;gt; ntfs3 discard,noatime 0 0 </description>
+      <description>&lt;h2 id=&#34;fstab-mount-with-user-permssion&#34;&gt;&lt;code&gt;fstab&lt;/code&gt; mount with user permssion&lt;/h2&gt;
+&lt;p&gt;Use KDE/GNOME partition manager to manage mount point and use mount options: &lt;code&gt;uid=1000,gid=1001,umask=022&lt;/code&gt;&lt;br&gt;
+Or append to &lt;code&gt;/etc/fstab&lt;/code&gt;:&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;UUID=&amp;lt;disk_UUID&amp;gt;   &amp;lt;mount_point&amp;gt;    &amp;lt;format&amp;gt;    uid=1000,gid=1001,umask=022,noatime 0 1
+&lt;/code&gt;&lt;/pre&gt;&lt;h2 id=&#34;fstab-mount-ntfs-with-kernel-ntfs3-driver-from-kernel-515&#34;&gt;&lt;code&gt;fstab&lt;/code&gt; mount NTFS with kernel &lt;code&gt;NTFS3&lt;/code&gt; driver from kernel 5.15&lt;/h2&gt;
+&lt;p&gt;Use KDE/GNOME partition manager to manage mount point, this will use the default &lt;code&gt;mount.ntfs -&amp;gt; ntfs-3g&lt;/code&gt; driver. We need to change the mount driver to &lt;code&gt;mount.ntfs3&lt;/code&gt; in &lt;code&gt;/etc/fstab&lt;/code&gt;:&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;UUID=&amp;lt;disk_UUID&amp;gt;   &amp;lt;mount_point&amp;gt;    ntfs3       discard,noatime                     0 0
+&lt;/code&gt;&lt;/pre&gt;</description>
     </item>
-    
     <item>
       <title>Setting up Arch - Part 3 - Post-Installation Setup</title>
       <link>https://n0k0m3.github.io/posts/setting_up_arch/post_install/</link>
       <pubDate>Wed, 17 Nov 2021 00:00:00 +0000</pubDate>
-      
       <guid>https://n0k0m3.github.io/posts/setting_up_arch/post_install/</guid>
-      <description>Install zsh4humans I don&amp;rsquo;t need anything more fancy than romkatv&amp;rsquo;s zsh4humans
-sh -c &amp;#34;$(curl -fsSL https://raw.githubusercontent.com/n0k0m3/Personal-Setup/main/Setting_up_Arch/setup.sh)&amp;#34; Install Nextcloud sudo pacman -S nextcloud-client Sync .dotfiles with Nextcloud + flameshot shortcut
-Setting up pacman and makepkg config sudo nano /etc/pacman.conf Set ParallelDownloads = 10:
-sudo nano /etc/makepkg.conf Set compile flags CFLAGS=&amp;quot;-march=native -mtune=native ...&amp;quot; and MAKEFLAGS=&amp;quot;-j12&amp;quot; for 12 being total number of available cores/threads:
-Comparing current installation with installed packages of previous dist python3 read_install.</description>
+      <description>&lt;h2 id=&#34;install-zsh4humans&#34;&gt;Install &lt;a href=&#34;https://github.com/romkatv/zsh4humans&#34;&gt;&lt;code&gt;zsh4humans&lt;/code&gt;&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;I don&amp;rsquo;t need anything more fancy than romkatv&amp;rsquo;s &lt;code&gt;zsh4humans&lt;/code&gt;&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-sh&#34; data-lang=&#34;sh&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;sh -c &lt;span class=&#34;s2&#34;&gt;&amp;#34;&lt;/span&gt;&lt;span class=&#34;k&#34;&gt;$(&lt;/span&gt;curl -fsSL https://raw.githubusercontent.com/n0k0m3/Personal-Setup/main/Setting_up_Arch/setup.sh&lt;span class=&#34;k&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id=&#34;install-nextcloud&#34;&gt;Install Nextcloud&lt;/h2&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-sh&#34; data-lang=&#34;sh&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;sudo pacman -S nextcloud-client
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Sync &lt;code&gt;.dotfiles&lt;/code&gt; with Nextcloud + &lt;code&gt;flameshot&lt;/code&gt; shortcut&lt;/p&gt;
+&lt;h2 id=&#34;setting-up-pacman-and-makepkg-config&#34;&gt;Setting up &lt;code&gt;pacman&lt;/code&gt; and &lt;code&gt;makepkg&lt;/code&gt; config&lt;/h2&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-sh&#34; data-lang=&#34;sh&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;sudo nano /etc/pacman.conf
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Set &lt;code&gt;ParallelDownloads = 10&lt;/code&gt;:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-sh&#34; data-lang=&#34;sh&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;sudo nano /etc/makepkg.conf
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Set compile flags &lt;code&gt;CFLAGS=&amp;quot;-march=native -mtune=native ...&amp;quot;&lt;/code&gt; and &lt;code&gt;MAKEFLAGS=&amp;quot;-j12&amp;quot;&lt;/code&gt; for &lt;code&gt;12&lt;/code&gt; being total number of available cores/threads:&lt;/p&gt;
+&lt;h2 id=&#34;comparing-current-installation-with-installed-packages-of-previous-dist&#34;&gt;Comparing current installation with installed packages of previous dist&lt;/h2&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-sh&#34; data-lang=&#34;sh&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;python3 read_install.py &amp;lt;installed.log file&amp;gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h3 id=&#34;update-installedlog-with-current-setup&#34;&gt;Update &lt;code&gt;installed.log&lt;/code&gt; with current setup&lt;/h3&gt;
+&lt;p&gt;&lt;a href=&#34;https://raw.githubusercontent.com/n0k0m3/Personal-Setup/main/Setting_up_Arch/export_install_deps.py&#34;&gt;Download export_install_deps.py&lt;/a&gt;{: .btn .btn&amp;ndash;info }&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Setting up Arch - Part 2 - `systemd` hooks with FIDO2 unlock</title>
       <link>https://n0k0m3.github.io/posts/setting_up_arch/systemd_setup/systemd_setup/</link>
       <pubDate>Tue, 16 Nov 2021 00:00:00 +0000</pubDate>
-      
       <guid>https://n0k0m3.github.io/posts/setting_up_arch/systemd_setup/systemd_setup/</guid>
-      <description>By default Arch-based distros uses busybox init, which doesn’t support some features comfort from systemd. This guide will help you to setup systemd hooks, switch encryption to LUKS2 for systemd-cryptenroll, use U2F/FIDO2 key to unlock at boot, and Plymouth for boot splash screen.
-systemd hooks and Plymouth boot splash screen Follwing script will change busybox init to systemd hooks and setup plymouth with colorful_loop theme.
-Requirements: yay (default on EndeavourOS)</description>
+      <description>&lt;p&gt;By default Arch-based distros uses &lt;code&gt;busybox&lt;/code&gt; init, which doesn’t support some features comfort from &lt;code&gt;systemd&lt;/code&gt;. This guide will help you to setup &lt;code&gt;systemd&lt;/code&gt; hooks, switch encryption to LUKS2 for &lt;code&gt;systemd-cryptenroll&lt;/code&gt;, use U2F/FIDO2 key to unlock at boot, and &lt;code&gt;Plymouth&lt;/code&gt; for boot splash screen.&lt;/p&gt;
+&lt;h2 id=&#34;systemd-hooks-and-plymouth-boot-splash-screen&#34;&gt;&lt;code&gt;systemd&lt;/code&gt; hooks and Plymouth boot splash screen&lt;/h2&gt;
+&lt;p&gt;Follwing script will change &lt;code&gt;busybox&lt;/code&gt; init to &lt;code&gt;systemd&lt;/code&gt; hooks and setup &lt;code&gt;plymouth&lt;/code&gt; with &lt;code&gt;colorful_loop&lt;/code&gt; theme.&lt;/p&gt;
+&lt;p&gt;Requirements: &lt;code&gt;yay&lt;/code&gt; (default on EndeavourOS)&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Setting up Arch - Part 1 - Swap on BTRFS</title>
       <link>https://n0k0m3.github.io/posts/setting_up_arch/setting_up_arch/</link>
       <pubDate>Mon, 15 Nov 2021 00:00:00 +0000</pubDate>
-      
       <guid>https://n0k0m3.github.io/posts/setting_up_arch/setting_up_arch/</guid>
-      <description>This is setup on EndeavourOS/Manjaro, on barebone Arch should be a little bit different (install yay before all of these steps)
-Arch setup Setting up Manjaro/EndeavourOS with Calamares installer using this partition Setup with SWAP file (turn on hibernation option):
-Partition Mount Point Filesystem Size Encryption Status EFI system partition /boot/efi FAT32 300-550 MB Unencrypted /boot partition /boot/efi ext4 200-500 MB Unencrypted root partition / btrfs/LUKS Rest of space Encrypted Note: mount EFI with boot flag and / with root flag.</description>
+      <description>&lt;p&gt;This is setup on EndeavourOS/Manjaro, on barebone Arch should be a little bit different (install &lt;code&gt;yay&lt;/code&gt; before all of these steps)&lt;/p&gt;
+&lt;h2 id=&#34;arch-setup&#34;&gt;Arch setup&lt;/h2&gt;
+&lt;p&gt;Setting up Manjaro/EndeavourOS with Calamares installer using this partition Setup with SWAP file (turn on hibernation option):&lt;/p&gt;
+&lt;table&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th&gt;Partition&lt;/th&gt;
+          &lt;th&gt;Mount Point&lt;/th&gt;
+          &lt;th&gt;Filesystem&lt;/th&gt;
+          &lt;th&gt;Size&lt;/th&gt;
+          &lt;th&gt;Encryption Status&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td&gt;EFI system partition&lt;/td&gt;
+          &lt;td&gt;&lt;code&gt;/boot/efi&lt;/code&gt;&lt;/td&gt;
+          &lt;td&gt;FAT32&lt;/td&gt;
+          &lt;td&gt;300-550 MB&lt;/td&gt;
+          &lt;td&gt;Unencrypted&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;code&gt;/boot&lt;/code&gt; partition&lt;/td&gt;
+          &lt;td&gt;&lt;code&gt;/boot/efi&lt;/code&gt;&lt;/td&gt;
+          &lt;td&gt;ext4&lt;/td&gt;
+          &lt;td&gt;200-500 MB&lt;/td&gt;
+          &lt;td&gt;Unencrypted&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;code&gt;root&lt;/code&gt; partition&lt;/td&gt;
+          &lt;td&gt;&lt;code&gt;/&lt;/code&gt;&lt;/td&gt;
+          &lt;td&gt;btrfs/LUKS&lt;/td&gt;
+          &lt;td&gt;Rest of space&lt;/td&gt;
+          &lt;td&gt;Encrypted&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;Note: mount EFI with &lt;code&gt;boot&lt;/code&gt; flag and &lt;code&gt;/&lt;/code&gt; with &lt;code&gt;root&lt;/code&gt; flag.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Tensorflow with GPU support in Docker</title>
       <link>https://n0k0m3.github.io/posts/tensorflow_docker/</link>
       <pubDate>Sun, 02 May 2021 00:00:00 +0000</pubDate>
-      
       <guid>https://n0k0m3.github.io/posts/tensorflow_docker/</guid>
-      <description>Following guide was tested on EndeavourOS and Manjaro (Arch-based) Linux distro.
-Why? Installing dependencies and setting up notebooks is usually a PITA: installing CUDA with CuDNN and TensorRT doesn&amp;rsquo;t have a common and easy to follow guide, along with recent (not recent) release of python 3.9, most ML/DL packages are not updated to this wheel. Also setting up venv is hard to maintain and migrate as you have to backup the whole environment to other machine.</description>
+      <description>&lt;p&gt;Following guide was tested on EndeavourOS and Manjaro (Arch-based) Linux distro.&lt;/p&gt;
+&lt;h2 id=&#34;why&#34;&gt;Why?&lt;/h2&gt;
+&lt;p&gt;Installing dependencies and setting up notebooks is usually a PITA: installing CUDA with CuDNN and TensorRT doesn&amp;rsquo;t have a common and easy to follow guide, along with recent (not recent) release of python 3.9, most ML/DL packages are not updated to this wheel. Also setting up &lt;code&gt;venv&lt;/code&gt; is hard to maintain and migrate as you have to backup the whole environment to other machine.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>VFIO Single GPU Passthrough Guide on Linux</title>
       <link>https://n0k0m3.github.io/posts/single_gpu_passthrough_guide/</link>
       <pubDate>Sat, 01 May 2021 00:00:00 +0000</pubDate>
-      
       <guid>https://n0k0m3.github.io/posts/single_gpu_passthrough_guide/</guid>
-      <description>Why single GPU passthrough? Because I&amp;rsquo;m poor, using Ryzen non-APU CPU, and I don&amp;rsquo;t want to buy a second GPU just for passthrough. I&amp;rsquo;m using a single GPU passthrough for gaming on Windows and using Linux as my daily driver.
-In this guide, we will be going over how to set up a single GPU passthrough on Linux. This guide is meant to be a reference for myself and others who want to learn how to set up a single GPU passthrough on Linux.</description>
+      <description>&lt;p&gt;Why single GPU passthrough? Because I&amp;rsquo;m poor, using Ryzen non-APU CPU, and I don&amp;rsquo;t want to buy a second GPU just for passthrough. I&amp;rsquo;m using a single GPU passthrough for gaming on Windows and using Linux as my daily driver.&lt;/p&gt;
+&lt;p&gt;In this guide, we will be going over how to set up a single GPU passthrough on Linux. This guide is meant to be a reference for myself and others who want to learn how to set up a single GPU passthrough on Linux. I&amp;rsquo;m using Arch Linux as the host OS, but this guide should work on any Linux distro.&lt;/p&gt;</description>
     </item>
-    
   </channel>
 </rss>

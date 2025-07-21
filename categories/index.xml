@@ -4,44 +4,37 @@
     <title>Categories on n0k0m3 Dev Blog</title>
     <link>https://n0k0m3.github.io/categories/</link>
     <description>Recent content in Categories on n0k0m3 Dev Blog</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo -- 0.148.1</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 25 Apr 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://n0k0m3.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 12 Oct 2023 22:39:09 -0400</lastBuildDate>
+    <atom:link href="https://n0k0m3.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Kubernetes</title>
       <link>https://n0k0m3.github.io/categories/kubernetes/</link>
       <pubDate>Tue, 25 Apr 2023 00:00:00 +0000</pubDate>
-      
       <guid>https://n0k0m3.github.io/categories/kubernetes/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>Setting up Arch</title>
+      <title>Setting Up Arch</title>
       <link>https://n0k0m3.github.io/categories/setting-up-arch/</link>
       <pubDate>Tue, 03 May 2022 00:00:00 +0000</pubDate>
-      
       <guid>https://n0k0m3.github.io/categories/setting-up-arch/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Personal Projects</title>
       <link>https://n0k0m3.github.io/categories/personal-projects/</link>
       <pubDate>Mon, 14 Mar 2022 00:00:00 +0000</pubDate>
-      
       <guid>https://n0k0m3.github.io/categories/personal-projects/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Projects</title>
       <link>https://n0k0m3.github.io/categories/projects/</link>
       <pubDate>Mon, 10 May 2021 00:00:00 +0000</pubDate>
-      
       <guid>https://n0k0m3.github.io/categories/projects/</guid>
       <description></description>
     </item>
-    
   </channel>
 </rss>

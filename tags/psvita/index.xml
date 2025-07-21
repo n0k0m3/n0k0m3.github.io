@@ -4,21 +4,28 @@
     <title>PSVita on n0k0m3 Dev Blog</title>
     <link>https://n0k0m3.github.io/tags/psvita/</link>
     <description>Recent content in PSVita on n0k0m3 Dev Blog</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo -- 0.148.1</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 14 Mar 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://n0k0m3.github.io/tags/psvita/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 12 Oct 2023 22:13:32 -0400</lastBuildDate>
+    <atom:link href="https://n0k0m3.github.io/tags/psvita/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Guide for hacking PSVita on Linux</title>
       <link>https://n0k0m3.github.io/posts/ps_vita_hacking/</link>
       <pubDate>Mon, 14 Mar 2022 00:00:00 +0000</pubDate>
-      
       <guid>https://n0k0m3.github.io/posts/ps_vita_hacking/</guid>
-      <description>Follow instructions from https://guide.13375384.xyz/start or https://vita.hacks.guide/.
-Documents for compiling from sources for tools. Guide to mount TexFAT Note: Put device in airplane mode during the Content Manager connection process will make the steps much easier to do.
-DON&amp;rsquo;T MANUALLY SETTING YAMT, JUST USE YAMT SETUP USING VITADEPLOY (guide)
-FinalHE Check prerequisites (https://github.com/soarqin/finalhe)
-git clone https://github.com/soarqin/finalhe cd finalhe qmake &amp;amp;&amp;amp; make Build artifacts in src/FinalHE. Copy VitaDeploy zip in the same folder as FinalHE binary</description>
+      <description>&lt;p&gt;Follow instructions from &lt;a href=&#34;https://guide.13375384.xyz/start&#34;&gt;https://guide.13375384.xyz/start&lt;/a&gt; or &lt;a href=&#34;https://vita.hacks.guide/&#34;&gt;https://vita.hacks.guide/&lt;/a&gt;.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Documents for compiling from sources for tools.&lt;/li&gt;
+&lt;li&gt;Guide to mount TexFAT&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Note:&lt;/strong&gt; Put device in airplane mode during the &lt;code&gt;Content Manager&lt;/code&gt; connection process will make the steps much easier to do.&lt;/p&gt;
+&lt;p&gt;DON&amp;rsquo;T MANUALLY SETTING YAMT, JUST USE YAMT SETUP USING VITADEPLOY (&lt;a href=&#34;https://guide.13375384.xyz/start&#34;&gt;guide&lt;/a&gt;)&lt;/p&gt;
+&lt;h2 id=&#34;finalhe&#34;&gt;FinalHE&lt;/h2&gt;
+&lt;p&gt;Check prerequisites (&lt;a href=&#34;https://github.com/soarqin/finalhe&#34;&gt;https://github.com/soarqin/finalhe&lt;/a&gt;)&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-sh&#34; data-lang=&#34;sh&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;git clone https://github.com/soarqin/finalhe
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nb&#34;&gt;cd&lt;/span&gt; finalhe
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;qmake &lt;span class=&#34;o&#34;&gt;&amp;amp;&amp;amp;&lt;/span&gt; make
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Build artifacts in &lt;code&gt;src/FinalHE&lt;/code&gt;. Copy &lt;code&gt;VitaDeploy&lt;/code&gt; zip in the same folder as &lt;code&gt;FinalHE&lt;/code&gt; binary&lt;/p&gt;</description>
     </item>
-    
   </channel>
 </rss>
