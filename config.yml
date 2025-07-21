@@ -1,6 +1,6 @@
 baseURL: "https://n0k0m3.github.io/"
 title: n0k0m3 Dev Blog
-theme: PaperMod
+# theme: ["PaperMod"]
 enableInlineShortcodes: true
 
 enableRobotsTXT: true
@@ -11,6 +11,10 @@ buildExpired: false
 minify:
   disableXML: true
   minifyOutput: true
+
+module:
+  imports:
+  - path: github.com/adityatelange/hugo-PaperMod
 
 params:
   env: production # to enable google analytics, opengraph, twitter-cards and schema.
