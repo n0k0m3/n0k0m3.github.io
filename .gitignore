@@ -7,3 +7,5 @@ Gemfile.lock
 .DS_Store
 /.quarto/
 oldsite/
+/public/
+/resources/_gen/
