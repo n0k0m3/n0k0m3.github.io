@@ -1,0 +1,9 @@
+{
+    "links": [
+        {
+            "href": "https://auth.n0k0m3.cyou/application/o/tailscale/",
+            "rel": "http://openid.net/specs/connect/1.0/issuer"
+        }
+    ],
+    "subject": "acct:n0k0m3@n0k0m3.cyou"
+}
