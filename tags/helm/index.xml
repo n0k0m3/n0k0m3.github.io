@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Helm on n0k0m3 Dev Blog</title>
+    <link>https://n0k0m3.github.io/tags/helm/</link>
+    <description>Recent content in Helm on n0k0m3 Dev Blog</description>
+    <generator>Hugo -- 0.162.1</generator>
+    <language>en</language>
+    <lastBuildDate>Fri, 05 Jun 2026 15:55:58 -0400</lastBuildDate>
+    <atom:link href="https://n0k0m3.github.io/tags/helm/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Lightweight JupyterHub on k3s for Small Research Labs</title>
+      <link>https://n0k0m3.github.io/posts/containers/jupyterhub-kubernetes/</link>
+      <pubDate>Sun, 18 Jun 2023 00:00:00 +0000</pubDate>
+      <guid>https://n0k0m3.github.io/posts/containers/jupyterhub-kubernetes/</guid>
+      <description>&lt;p&gt;Deploy JupyterHub on a lightweight k3s Kubernetes cluster for small research labs and teams, without the overhead of full Kubernetes installations.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

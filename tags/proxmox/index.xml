@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Proxmox on n0k0m3 Dev Blog</title>
+    <link>https://n0k0m3.github.io/tags/proxmox/</link>
+    <description>Recent content in Proxmox on n0k0m3 Dev Blog</description>
+    <generator>Hugo -- 0.162.1</generator>
+    <language>en</language>
+    <lastBuildDate>Fri, 05 Jun 2026 15:52:00 -0400</lastBuildDate>
+    <atom:link href="https://n0k0m3.github.io/tags/proxmox/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Multi-User Samba/NFS Setup with ZFS Datasets on Proxmox</title>
+      <link>https://n0k0m3.github.io/posts/homelab/multi-user-samba-nfs-zfs/</link>
+      <pubDate>Fri, 28 Nov 2025 00:00:00 +0000</pubDate>
+      <guid>https://n0k0m3.github.io/posts/homelab/multi-user-samba-nfs-zfs/</guid>
+      <description>&lt;p&gt;Production-tested guide for setting up a multi-service storage architecture using ZFS datasets, unprivileged LXC containers, ACLs, and Samba/NFS sharing on Proxmox.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Migrating from Proxmox-hosted NAS to TrueNAS with Docker Apps</title>
+      <link>https://n0k0m3.github.io/posts/homelab/truenas-migration/</link>
+      <pubDate>Wed, 22 Oct 2025 00:00:00 +0000</pubDate>
+      <guid>https://n0k0m3.github.io/posts/homelab/truenas-migration/</guid>
+      <description>&lt;p&gt;A practical migration guide from a Proxmox-hosted Synology NAS to TrueNAS SCALE with Docker Compose applications, including network topology planning and macvlan configuration.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

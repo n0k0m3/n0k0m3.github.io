@@ -4,10 +4,66 @@
     <title>Posts on n0k0m3 Dev Blog</title>
     <link>https://n0k0m3.github.io/posts/</link>
     <description>Recent content in Posts on n0k0m3 Dev Blog</description>
-    <generator>Hugo -- 0.154.5</generator>
+    <generator>Hugo -- 0.162.1</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 12 Oct 2023 22:39:09 -0400</lastBuildDate>
+    <lastBuildDate>Fri, 05 Jun 2026 15:56:13 -0400</lastBuildDate>
     <atom:link href="https://n0k0m3.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Multi-User Samba/NFS Setup with ZFS Datasets on Proxmox</title>
+      <link>https://n0k0m3.github.io/posts/homelab/multi-user-samba-nfs-zfs/</link>
+      <pubDate>Fri, 28 Nov 2025 00:00:00 +0000</pubDate>
+      <guid>https://n0k0m3.github.io/posts/homelab/multi-user-samba-nfs-zfs/</guid>
+      <description>&lt;p&gt;Production-tested guide for setting up a multi-service storage architecture using ZFS datasets, unprivileged LXC containers, ACLs, and Samba/NFS sharing on Proxmox.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Migrating from Proxmox-hosted NAS to TrueNAS with Docker Apps</title>
+      <link>https://n0k0m3.github.io/posts/homelab/truenas-migration/</link>
+      <pubDate>Wed, 22 Oct 2025 00:00:00 +0000</pubDate>
+      <guid>https://n0k0m3.github.io/posts/homelab/truenas-migration/</guid>
+      <description>&lt;p&gt;A practical migration guide from a Proxmox-hosted Synology NAS to TrueNAS SCALE with Docker Compose applications, including network topology planning and macvlan configuration.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Secure SSH Access with Cloudflare Tunnel</title>
+      <link>https://n0k0m3.github.io/posts/networking/cloudflared-tunnel-setup/</link>
+      <pubDate>Sat, 17 Aug 2024 00:00:00 +0000</pubDate>
+      <guid>https://n0k0m3.github.io/posts/networking/cloudflared-tunnel-setup/</guid>
+      <description>&lt;p&gt;Access your servers securely through Cloudflare&amp;rsquo;s Zero Trust network without exposing SSH ports or setting up VPNs.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Using shlex.split() for Subprocess Commands in Python</title>
+      <link>https://n0k0m3.github.io/posts/development/python-shlex-subprocess/</link>
+      <pubDate>Fri, 03 May 2024 00:00:00 +0000</pubDate>
+      <guid>https://n0k0m3.github.io/posts/development/python-shlex-subprocess/</guid>
+      <description>&lt;p&gt;A quick tip for properly parsing shell-style command strings when using Python&amp;rsquo;s &lt;code&gt;subprocess.run()&lt;/code&gt; with list arguments.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Running macOS in Docker (Headless with VNC)</title>
+      <link>https://n0k0m3.github.io/posts/containers/macos-docker-headless/</link>
+      <pubDate>Wed, 14 Feb 2024 00:00:00 +0000</pubDate>
+      <guid>https://n0k0m3.github.io/posts/containers/macos-docker-headless/</guid>
+      <description>&lt;p&gt;A streamlined guide to running macOS in Docker using Docker-OSX, with headless VNC access for servers and remote setups.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>WEB-DL from Disney Plus (Educational Guide)</title>
+      <link>https://n0k0m3.github.io/posts/media/disney-plus-ripping/</link>
+      <pubDate>Thu, 12 Oct 2023 00:00:00 +0000</pubDate>
+      <guid>https://n0k0m3.github.io/posts/media/disney-plus-ripping/</guid>
+      <description>&lt;p&gt;An educational guide on downloading WEB-DL quality streams from Disney Plus using L3 Widevine decryption. For personal backup and archival purposes only.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>NoPayStation: PS Vita Game Preservation on Linux</title>
+      <link>https://n0k0m3.github.io/posts/gaming/nopaystation-tutorial/</link>
+      <pubDate>Fri, 25 Aug 2023 00:00:00 +0000</pubDate>
+      <guid>https://n0k0m3.github.io/posts/gaming/nopaystation-tutorial/</guid>
+      <description>&lt;p&gt;A guide to using NoPayStation for PS Vita game preservation and backup, enabling legal owners to archive their digital purchases.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Lightweight JupyterHub on k3s for Small Research Labs</title>
+      <link>https://n0k0m3.github.io/posts/containers/jupyterhub-kubernetes/</link>
+      <pubDate>Sun, 18 Jun 2023 00:00:00 +0000</pubDate>
+      <guid>https://n0k0m3.github.io/posts/containers/jupyterhub-kubernetes/</guid>
+      <description>&lt;p&gt;Deploy JupyterHub on a lightweight k3s Kubernetes cluster for small research labs and teams, without the overhead of full Kubernetes installations.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>JupyterHub on Baremetal Kubernetes - Part 1 - Setting up cluster</title>
       <link>https://n0k0m3.github.io/posts/nets-deployment/nets-deployment-1/</link>
@@ -105,38 +161,38 @@ Or append to &lt;code&gt;/etc/fstab&lt;/code&gt;:&lt;/p&gt;
 &lt;h2 id=&#34;arch-setup&#34;&gt;Arch setup&lt;/h2&gt;
 &lt;p&gt;Setting up Manjaro/EndeavourOS with Calamares installer using this partition Setup with SWAP file (turn on hibernation option):&lt;/p&gt;
 &lt;table&gt;
-  &lt;thead&gt;
-      &lt;tr&gt;
-          &lt;th&gt;Partition&lt;/th&gt;
-          &lt;th&gt;Mount Point&lt;/th&gt;
-          &lt;th&gt;Filesystem&lt;/th&gt;
-          &lt;th&gt;Size&lt;/th&gt;
-          &lt;th&gt;Encryption Status&lt;/th&gt;
-      &lt;/tr&gt;
-  &lt;/thead&gt;
-  &lt;tbody&gt;
-      &lt;tr&gt;
-          &lt;td&gt;EFI system partition&lt;/td&gt;
-          &lt;td&gt;&lt;code&gt;/boot/efi&lt;/code&gt;&lt;/td&gt;
-          &lt;td&gt;FAT32&lt;/td&gt;
-          &lt;td&gt;300-550 MB&lt;/td&gt;
-          &lt;td&gt;Unencrypted&lt;/td&gt;
-      &lt;/tr&gt;
-      &lt;tr&gt;
-          &lt;td&gt;&lt;code&gt;/boot&lt;/code&gt; partition&lt;/td&gt;
-          &lt;td&gt;&lt;code&gt;/boot/efi&lt;/code&gt;&lt;/td&gt;
-          &lt;td&gt;ext4&lt;/td&gt;
-          &lt;td&gt;200-500 MB&lt;/td&gt;
-          &lt;td&gt;Unencrypted&lt;/td&gt;
-      &lt;/tr&gt;
-      &lt;tr&gt;
-          &lt;td&gt;&lt;code&gt;root&lt;/code&gt; partition&lt;/td&gt;
-          &lt;td&gt;&lt;code&gt;/&lt;/code&gt;&lt;/td&gt;
-          &lt;td&gt;btrfs/LUKS&lt;/td&gt;
-          &lt;td&gt;Rest of space&lt;/td&gt;
-          &lt;td&gt;Encrypted&lt;/td&gt;
-      &lt;/tr&gt;
-  &lt;/tbody&gt;
+	&lt;thead&gt;
+			&lt;tr&gt;
+					&lt;th&gt;Partition&lt;/th&gt;
+					&lt;th&gt;Mount Point&lt;/th&gt;
+					&lt;th&gt;Filesystem&lt;/th&gt;
+					&lt;th&gt;Size&lt;/th&gt;
+					&lt;th&gt;Encryption Status&lt;/th&gt;
+			&lt;/tr&gt;
+	&lt;/thead&gt;
+	&lt;tbody&gt;
+			&lt;tr&gt;
+					&lt;td&gt;EFI system partition&lt;/td&gt;
+					&lt;td&gt;&lt;code&gt;/boot/efi&lt;/code&gt;&lt;/td&gt;
+					&lt;td&gt;FAT32&lt;/td&gt;
+					&lt;td&gt;300-550 MB&lt;/td&gt;
+					&lt;td&gt;Unencrypted&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td&gt;&lt;code&gt;/boot&lt;/code&gt; partition&lt;/td&gt;
+					&lt;td&gt;&lt;code&gt;/boot/efi&lt;/code&gt;&lt;/td&gt;
+					&lt;td&gt;ext4&lt;/td&gt;
+					&lt;td&gt;200-500 MB&lt;/td&gt;
+					&lt;td&gt;Unencrypted&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td&gt;&lt;code&gt;root&lt;/code&gt; partition&lt;/td&gt;
+					&lt;td&gt;&lt;code&gt;/&lt;/code&gt;&lt;/td&gt;
+					&lt;td&gt;btrfs/LUKS&lt;/td&gt;
+					&lt;td&gt;Rest of space&lt;/td&gt;
+					&lt;td&gt;Encrypted&lt;/td&gt;
+			&lt;/tr&gt;
+	&lt;/tbody&gt;
 &lt;/table&gt;
 &lt;p&gt;Note: mount EFI with &lt;code&gt;boot&lt;/code&gt; flag and &lt;code&gt;/&lt;/code&gt; with &lt;code&gt;root&lt;/code&gt; flag.&lt;/p&gt;</description>
     </item>

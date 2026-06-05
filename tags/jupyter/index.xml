@@ -4,10 +4,17 @@
     <title>Jupyter on n0k0m3 Dev Blog</title>
     <link>https://n0k0m3.github.io/tags/jupyter/</link>
     <description>Recent content in Jupyter on n0k0m3 Dev Blog</description>
-    <generator>Hugo -- 0.154.5</generator>
+    <generator>Hugo -- 0.162.1</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 12 Oct 2023 22:39:09 -0400</lastBuildDate>
+    <lastBuildDate>Fri, 05 Jun 2026 15:55:58 -0400</lastBuildDate>
     <atom:link href="https://n0k0m3.github.io/tags/jupyter/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Lightweight JupyterHub on k3s for Small Research Labs</title>
+      <link>https://n0k0m3.github.io/posts/containers/jupyterhub-kubernetes/</link>
+      <pubDate>Sun, 18 Jun 2023 00:00:00 +0000</pubDate>
+      <guid>https://n0k0m3.github.io/posts/containers/jupyterhub-kubernetes/</guid>
+      <description>&lt;p&gt;Deploy JupyterHub on a lightweight k3s Kubernetes cluster for small research labs and teams, without the overhead of full Kubernetes installations.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>JupyterHub on Baremetal Kubernetes - Part 1 - Setting up cluster</title>
       <link>https://n0k0m3.github.io/posts/nets-deployment/nets-deployment-1/</link>

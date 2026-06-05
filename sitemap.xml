@@ -1,3 +1,4 @@
+
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
@@ -21,13 +22,166 @@
     <lastmod>2023-10-13T12:50:09-04:00</lastmod>
   </url><url>
     <loc>https://n0k0m3.github.io/categories/</loc>
-    <lastmod>2023-10-12T22:39:09-04:00</lastmod>
+    <lastmod>2026-06-05T15:56:13-04:00</lastmod>
+  </url><url>
+    <loc>https://n0k0m3.github.io/categories/homelab/</loc>
+    <lastmod>2026-06-05T15:52:00-04:00</lastmod>
+  </url><url>
+    <loc>https://n0k0m3.github.io/tags/linux/</loc>
+    <lastmod>2026-06-05T15:56:02-04:00</lastmod>
+  </url><url>
+    <loc>https://n0k0m3.github.io/tags/lxc/</loc>
+    <lastmod>2026-06-05T15:52:00-04:00</lastmod>
+  </url><url>
+    <loc>https://n0k0m3.github.io/posts/homelab/multi-user-samba-nfs-zfs/</loc>
+    <lastmod>2026-06-05T15:52:00-04:00</lastmod>
+  </url><url>
+    <loc>https://n0k0m3.github.io/</loc>
+    <lastmod>2026-06-05T15:56:13-04:00</lastmod>
+  </url><url>
+    <loc>https://n0k0m3.github.io/tags/nfs/</loc>
+    <lastmod>2026-06-05T15:52:00-04:00</lastmod>
+  </url><url>
+    <loc>https://n0k0m3.github.io/posts/</loc>
+    <lastmod>2026-06-05T15:56:13-04:00</lastmod>
+  </url><url>
+    <loc>https://n0k0m3.github.io/tags/proxmox/</loc>
+    <lastmod>2026-06-05T15:52:00-04:00</lastmod>
+  </url><url>
+    <loc>https://n0k0m3.github.io/tags/samba/</loc>
+    <lastmod>2026-06-05T15:52:00-04:00</lastmod>
+  </url><url>
+    <loc>https://n0k0m3.github.io/tags/storage/</loc>
+    <lastmod>2026-06-05T15:52:00-04:00</lastmod>
+  </url><url>
+    <loc>https://n0k0m3.github.io/tags/</loc>
+    <lastmod>2026-06-05T15:56:13-04:00</lastmod>
+  </url><url>
+    <loc>https://n0k0m3.github.io/tags/zfs/</loc>
+    <lastmod>2026-06-05T15:52:00-04:00</lastmod>
+  </url><url>
+    <loc>https://n0k0m3.github.io/tags/docker/</loc>
+    <lastmod>2026-06-05T15:55:58-04:00</lastmod>
+  </url><url>
+    <loc>https://n0k0m3.github.io/posts/homelab/truenas-migration/</loc>
+    <lastmod>2026-06-05T15:52:00-04:00</lastmod>
+  </url><url>
+    <loc>https://n0k0m3.github.io/tags/migration/</loc>
+    <lastmod>2026-06-05T15:52:00-04:00</lastmod>
+  </url><url>
+    <loc>https://n0k0m3.github.io/tags/networking/</loc>
+    <lastmod>2026-06-05T15:52:00-04:00</lastmod>
+  </url><url>
+    <loc>https://n0k0m3.github.io/tags/truenas/</loc>
+    <lastmod>2026-06-05T15:52:00-04:00</lastmod>
+  </url><url>
+    <loc>https://n0k0m3.github.io/tags/vlan/</loc>
+    <lastmod>2026-06-05T15:52:00-04:00</lastmod>
+  </url><url>
+    <loc>https://n0k0m3.github.io/tags/cloudflare/</loc>
+    <lastmod>2026-06-05T15:56:02-04:00</lastmod>
+  </url><url>
+    <loc>https://n0k0m3.github.io/categories/networking/</loc>
+    <lastmod>2026-06-05T15:56:02-04:00</lastmod>
+  </url><url>
+    <loc>https://n0k0m3.github.io/tags/remote-access/</loc>
+    <lastmod>2026-06-05T15:56:02-04:00</lastmod>
+  </url><url>
+    <loc>https://n0k0m3.github.io/posts/networking/cloudflared-tunnel-setup/</loc>
+    <lastmod>2026-06-05T15:56:02-04:00</lastmod>
+  </url><url>
+    <loc>https://n0k0m3.github.io/tags/ssh/</loc>
+    <lastmod>2026-06-05T15:56:02-04:00</lastmod>
+  </url><url>
+    <loc>https://n0k0m3.github.io/tags/tunnel/</loc>
+    <lastmod>2026-06-05T15:56:02-04:00</lastmod>
+  </url><url>
+    <loc>https://n0k0m3.github.io/categories/development/</loc>
+    <lastmod>2026-06-05T15:56:06-04:00</lastmod>
+  </url><url>
+    <loc>https://n0k0m3.github.io/tags/python/</loc>
+    <lastmod>2026-06-05T15:56:06-04:00</lastmod>
+  </url><url>
+    <loc>https://n0k0m3.github.io/tags/shell/</loc>
+    <lastmod>2026-06-05T15:56:06-04:00</lastmod>
+  </url><url>
+    <loc>https://n0k0m3.github.io/tags/subprocess/</loc>
+    <lastmod>2026-06-05T15:56:06-04:00</lastmod>
+  </url><url>
+    <loc>https://n0k0m3.github.io/tags/tips/</loc>
+    <lastmod>2026-06-05T15:56:06-04:00</lastmod>
+  </url><url>
+    <loc>https://n0k0m3.github.io/posts/development/python-shlex-subprocess/</loc>
+    <lastmod>2026-06-05T15:56:06-04:00</lastmod>
+  </url><url>
+    <loc>https://n0k0m3.github.io/categories/containers/</loc>
+    <lastmod>2026-06-05T15:55:58-04:00</lastmod>
+  </url><url>
+    <loc>https://n0k0m3.github.io/tags/headless/</loc>
+    <lastmod>2026-06-05T15:55:58-04:00</lastmod>
+  </url><url>
+    <loc>https://n0k0m3.github.io/tags/macos/</loc>
+    <lastmod>2026-06-05T15:55:58-04:00</lastmod>
+  </url><url>
+    <loc>https://n0k0m3.github.io/tags/qemu/</loc>
+    <lastmod>2026-06-05T15:55:58-04:00</lastmod>
+  </url><url>
+    <loc>https://n0k0m3.github.io/posts/containers/macos-docker-headless/</loc>
+    <lastmod>2026-06-05T15:55:58-04:00</lastmod>
+  </url><url>
+    <loc>https://n0k0m3.github.io/tags/virtualization/</loc>
+    <lastmod>2026-06-05T15:55:58-04:00</lastmod>
+  </url><url>
+    <loc>https://n0k0m3.github.io/tags/ffmpeg/</loc>
+    <lastmod>2026-06-05T15:56:13-04:00</lastmod>
+  </url><url>
+    <loc>https://n0k0m3.github.io/categories/media/</loc>
+    <lastmod>2026-06-05T15:56:13-04:00</lastmod>
+  </url><url>
+    <loc>https://n0k0m3.github.io/tags/streaming/</loc>
+    <lastmod>2026-06-05T15:56:13-04:00</lastmod>
+  </url><url>
+    <loc>https://n0k0m3.github.io/tags/tutorial/</loc>
+    <lastmod>2026-06-05T15:56:13-04:00</lastmod>
+  </url><url>
+    <loc>https://n0k0m3.github.io/tags/web-dl/</loc>
+    <lastmod>2026-06-05T15:56:13-04:00</lastmod>
+  </url><url>
+    <loc>https://n0k0m3.github.io/posts/media/disney-plus-ripping/</loc>
+    <lastmod>2026-06-05T15:56:13-04:00</lastmod>
+  </url><url>
+    <loc>https://n0k0m3.github.io/tags/game-preservation/</loc>
+    <lastmod>2026-06-05T15:56:10-04:00</lastmod>
+  </url><url>
+    <loc>https://n0k0m3.github.io/categories/gaming/</loc>
+    <lastmod>2026-06-05T15:56:10-04:00</lastmod>
+  </url><url>
+    <loc>https://n0k0m3.github.io/tags/nopaystation/</loc>
+    <lastmod>2026-06-05T15:56:10-04:00</lastmod>
+  </url><url>
+    <loc>https://n0k0m3.github.io/posts/gaming/nopaystation-tutorial/</loc>
+    <lastmod>2026-06-05T15:56:10-04:00</lastmod>
+  </url><url>
+    <loc>https://n0k0m3.github.io/tags/ps-vita/</loc>
+    <lastmod>2026-06-05T15:56:10-04:00</lastmod>
+  </url><url>
+    <loc>https://n0k0m3.github.io/tags/helm/</loc>
+    <lastmod>2026-06-05T15:55:58-04:00</lastmod>
   </url><url>
     <loc>https://n0k0m3.github.io/tags/jupyter/</loc>
-    <lastmod>2023-10-12T22:39:09-04:00</lastmod>
+    <lastmod>2026-06-05T15:55:58-04:00</lastmod>
   </url><url>
     <loc>https://n0k0m3.github.io/tags/jupyterhub/</loc>
-    <lastmod>2023-10-12T22:39:09-04:00</lastmod>
+    <lastmod>2026-06-05T15:55:58-04:00</lastmod>
+  </url><url>
+    <loc>https://n0k0m3.github.io/tags/k3s/</loc>
+    <lastmod>2026-06-05T15:55:58-04:00</lastmod>
+  </url><url>
+    <loc>https://n0k0m3.github.io/tags/kubernetes/</loc>
+    <lastmod>2026-06-05T15:55:58-04:00</lastmod>
+  </url><url>
+    <loc>https://n0k0m3.github.io/posts/containers/jupyterhub-kubernetes/</loc>
+    <lastmod>2026-06-05T15:55:58-04:00</lastmod>
   </url><url>
     <loc>https://n0k0m3.github.io/posts/nets-deployment/nets-deployment-1/</loc>
     <lastmod>2023-10-12T22:39:09-04:00</lastmod>
@@ -37,21 +191,6 @@
   </url><url>
     <loc>https://n0k0m3.github.io/categories/kubernetes/</loc>
     <lastmod>2023-10-12T22:39:09-04:00</lastmod>
-  </url><url>
-    <loc>https://n0k0m3.github.io/tags/kubernetes/</loc>
-    <lastmod>2023-10-12T22:39:09-04:00</lastmod>
-  </url><url>
-    <loc>https://n0k0m3.github.io/</loc>
-    <lastmod>2023-10-14T20:03:51-04:00</lastmod>
-  </url><url>
-    <loc>https://n0k0m3.github.io/posts/</loc>
-    <lastmod>2023-10-12T22:39:09-04:00</lastmod>
-  </url><url>
-    <loc>https://n0k0m3.github.io/tags/</loc>
-    <lastmod>2023-10-12T22:39:09-04:00</lastmod>
-  </url><url>
-    <loc>https://n0k0m3.github.io/tags/linux/</loc>
-    <lastmod>2023-10-12T22:13:32-04:00</lastmod>
   </url><url>
     <loc>https://n0k0m3.github.io/categories/setting-up-arch/</loc>
     <lastmod>2023-01-16T00:00:00+00:00</lastmod>
@@ -97,9 +236,6 @@
   </url><url>
     <loc>https://n0k0m3.github.io/tags/steamos/</loc>
     <lastmod>2023-10-12T22:06:45-04:00</lastmod>
-  </url><url>
-    <loc>https://n0k0m3.github.io/tags/docker/</loc>
-    <lastmod>2023-10-12T22:13:32-04:00</lastmod>
   </url><url>
     <loc>https://n0k0m3.github.io/tags/gpu/</loc>
     <lastmod>2023-10-12T22:13:32-04:00</lastmod>
